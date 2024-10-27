@@ -3,16 +3,16 @@
     "model": "account.customuser",
     "pk": 1,
     "fields": {
-        "last_login": null,
+        "last_login": "2024-10-27T05:49:21.552Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
-        "email": "",
         "is_staff": true,
         "is_active": true,
-        "date_joined": "2024-10-24T17:26:41.304Z",
-        "username": "admin",
-        "password": "pbkdf2_sha256$870000$1MeCBxRC3hcmepNxROOFIH$chCyDq0ShCAhj1rkMkNF/uAjX8r6GFXvvFtCxPdZrE0=",
+        "date_joined": "2024-10-27T05:48:59.354Z",
+        "username": "blank",
+        "email": "admin@mail.com",
+        "password": "pbkdf2_sha256$870000$fQvPDaZm9MEH19Ux8nfkqn$S5EilZvS9r/r3gH5aOiKq7IIAx8Dif3+eiIlA9VOCtM=",
         "groups": [],
         "user_permissions": []
     }
