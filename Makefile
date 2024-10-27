@@ -7,3 +7,6 @@ m:
 
 su:
 	./manage.py createsuperuser
+
+dev:
+	./manage.py runserver 0.0.0.0:8000
