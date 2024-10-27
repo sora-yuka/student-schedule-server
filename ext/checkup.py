@@ -1,3 +1,16 @@
-from decouple import config
+# This package used to test some things
+import os
+import sys
+import django
+from django.contrib.auth.hashers import make_password
+from uuid import uuid4
 
-print(config("ALLOWED_HOSTS"))
+
+project_path = os.path.join(os.path.dirname(__file__), "..")
+sys.path.append(project_path)
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
+django.setup()
+
+hashed_password = make_password(password="qwerty")
+print(hashed_password)

@@ -16,9 +16,20 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from drf_yasg import openapi
+from drf_yasg.views import get_schema_view
+
+schema_view = get_schema_view(openapi.Info(
+    title="KGTU schedule",
+    default_version="0.0.2",
+    description="This project used to help for KGTU's students in free plan"
+), public=True)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('swagger/', schema_view.with_ui(renderer="swagger")),
+    path('api/v1/account/', include('apps.account.urls')),
     path('api/v1/schedule/', include('apps.schedule.urls')),
     path('api/v1/lessons/', include('apps.lessons.urls')),
+    path('api/v1/faculty/', include('apps.faculties.urls')),
 ]

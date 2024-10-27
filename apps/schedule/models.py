@@ -1,6 +1,7 @@
 from django.db import models
 
 from apps.lessons.models import LessonsModel
+from apps.faculties.models import GroupsModel
 from ext.choices import DAYS
 
 # Create your models here.
@@ -36,6 +37,7 @@ class ScheduleModel(models.Model):
         to=LessonsModel, on_delete=models.CASCADE,
         blank=True, null=True, related_name="seventh_lesson_set"
         )
+    group = models.ForeignKey(to=GroupsModel, on_delete=models.CASCADE)
     
     def __str__(self) -> str:
-        return self.today
+        return f"{self.today} | {self.group.group_name}"
