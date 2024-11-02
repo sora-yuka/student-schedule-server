@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework.permissions import AllowAny
 from drf_yasg import openapi
 from drf_yasg.views import get_schema_view
 
@@ -23,7 +24,7 @@ schema_view = get_schema_view(openapi.Info(
     title="KGTU schedule",
     default_version="0.0.2",
     description="This project used to help for KGTU's students in free plan"
-), public=True)
+), permission_classes=[AllowAny], public=True)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
