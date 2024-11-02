@@ -10,7 +10,7 @@ User = get_user_model()
 
 
 class StudentProfileModel(models.Model):
-    owner = models.ForeignKey(to=User, on_delete=models.CASCADE)
+    owner = models.OneToOneField(to=User, on_delete=models.CASCADE)
     course = models.CharField(max_length=100, choices=COURSE)
     group = models.ForeignKey(to=GroupsModel, on_delete=models.CASCADE)
     

@@ -11,7 +11,6 @@ from rest_framework_simplejwt.authentication import AUTH_HEADER_TYPES
 from rest_framework_simplejwt.exceptions import InvalidToken, TokenError
 from rest_framework_simplejwt.settings import api_settings
 
-from .serializers import UserRegisterSerializer
 from apps.profiles.models import StudentProfileModel
 from apps.profiles.serializers import ProfileSerializer
 

@@ -9,3 +9,4 @@ from .serializers import LessonsSerializer
 class LessonsListAPIView(ListAPIView):
     serializer_class = LessonsSerializer
     queryset = LessonsModel.objects.all()
+        

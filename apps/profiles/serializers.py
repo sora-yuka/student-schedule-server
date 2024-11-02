@@ -15,7 +15,7 @@ class ProfileSerializer(serializers.ModelSerializer):
         fields = "__all__"
         
     def to_representation(self, instance: StudentProfileModel) -> Dict[str, str | int]:
-        representation = super().to_representation(instance)
+        representation = super().to_representation(instance=instance)
         representation.update({
             "owner": {"id": instance.owner.id, "email": instance.owner.email},
             "group": {

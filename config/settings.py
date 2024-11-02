@@ -56,6 +56,7 @@ INSTALLED_APPS = [
     'apps.lessons',
     'apps.profiles',
     'apps.faculties',
+    'apps.news',
 ]
 
 MIDDLEWARE = [
@@ -155,7 +156,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # REST settings:
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticatedOrReadOnly',
+        'rest_framework.permissions.IsAuthenticated',
     ),
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',

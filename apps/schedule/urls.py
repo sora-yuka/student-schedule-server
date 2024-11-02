@@ -4,5 +4,5 @@ from .views import ScheduleListAPIView
 
 
 urlpatterns = [
-    path("get/", ScheduleListAPIView.as_view())
+    path("", ScheduleListAPIView.as_view())
 ]

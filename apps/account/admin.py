@@ -23,7 +23,6 @@ class UserCreationForm(forms.ModelForm):
     def save(self, commit=True) -> models.Model:
         user = super().save(commit=False)
         user.set_password(self.cleaned_data["password"])
-        profile = StudentProfileModel.objects.create(owner=user)
         
         if commit:
             user.save()
