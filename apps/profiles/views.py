@@ -1,3 +1,9 @@
-from django.shortcuts import render
+from rest_framework.generics import ListAPIView
 
-# Create your views here.
+from .models import StudentProfileModel
+from .serializers import ProfileSerializer
+
+
+class ProfileListAPIView(ListAPIView):
+    serializer_class = ProfileSerializer
+    queryset = StudentProfileModel.objects.all()
