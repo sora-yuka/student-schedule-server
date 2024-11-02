@@ -1,0 +1,20 @@
+[
+{
+    "model": "profiles.studentprofilemodel",
+    "pk": 1,
+    "fields": {
+        "owner": 2,
+        "course": "2nd course",
+        "group": 1
+    }
+},
+{
+    "model": "profiles.studentprofilemodel",
+    "pk": 2,
+    "fields": {
+        "owner": 3,
+        "course": "1st course",
+        "group": 2
+    }
+}
+]

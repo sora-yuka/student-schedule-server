@@ -1,0 +1,24 @@
+[
+{
+    "model": "lessons.lessonsmodel",
+    "pk": 1,
+    "fields": {
+        "lesson_type": "Practice",
+        "class_room": "Стадион",
+        "lesson_name": "Физическая культура",
+        "professor": "Зав кафедрой",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "lessons.lessonsmodel",
+    "pk": 2,
+    "fields": {
+        "lesson_type": "Lecture",
+        "class_room": "6/617",
+        "lesson_name": "База данных",
+        "professor": "Кто-то там, я хз",
+        "number_of_weeks": "1-16"
+    }
+}
+]

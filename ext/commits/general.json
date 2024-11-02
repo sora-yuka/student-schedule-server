@@ -351,6 +351,201 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2024-11-02T16:20:03.584Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "9",
+        "object_repr": "happy chaos - hc@mail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2024-11-02T16:20:05.426Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "9",
+        "object_repr": "happy chaos - hc@mail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2024-11-02T19:01:16.974Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Курман отменил пары в пятницу",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2024-11-02T19:03:33.856Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Курман отменил пары в пятницу",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"resource model\", \"object\": \"\\u041a\\u0443\\u0440\\u043c\\u0430\\u043d \\u043e\\u0442\\u043c\\u0435\\u043d\\u0438\\u043b \\u043f\\u0430\\u0440\\u044b \\u0432 \\u043f\\u044f\\u0442\\u043d\\u0438\\u0446\\u0443 | http://localhost:8000/api/v1/news/all/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2024-11-02T19:24:46.318Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Курман отменил пары в пятницу",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"resource model\", \"object\": \"\\u041a\\u0443\\u0440\\u043c\\u0430\\u043d \\u043e\\u0442\\u043c\\u0435\\u043d\\u0438\\u043b \\u043f\\u0430\\u0440\\u044b \\u0432 \\u043f\\u044f\\u0442\\u043d\\u0438\\u0446\\u0443 | http://127.0.0.1:8000/api/v1/news/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2024-11-02T19:25:10.291Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Курман отменил пары в пятницу",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2024-11-02T19:25:53.419Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Shikanokonokonoko koshtantan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"resource model\", \"object\": \"Shikanokonokonoko koshtantan | http://localhost:8000/api/v1/schedule/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2024-11-02T19:25:57.263Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "2",
+        "object_repr": "Shikanokonokonoko koshtantan",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2024-11-02T19:26:48.349Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Курман отменил пары в пятницу",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"resource model\", \"object\": \"\\u041a\\u0443\\u0440\\u043c\\u0430\\u043d \\u043e\\u0442\\u043c\\u0435\\u043d\\u0438\\u043b \\u043f\\u0430\\u0440\\u044b \\u0432 \\u043f\\u044f\\u0442\\u043d\\u0438\\u0446\\u0443 | http://localhost:8000/api/v1/schedule/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2024-11-02T19:27:06.633Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Курман отменил пары в пятницу",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"resource model\", \"object\": \"\\u041a\\u0443\\u0440\\u043c\\u0430\\u043d \\u043e\\u0442\\u043c\\u0435\\u043d\\u0438\\u043b \\u043f\\u0430\\u0440\\u044b \\u0432 \\u043f\\u044f\\u0442\\u043d\\u0438\\u0446\\u0443 | http://localhostl:8000/api/v1/account/login/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2024-11-02T19:27:44.047Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Курман отменил пары в пятницу",
+        "action_flag": 2,
+        "change_message": "[{\"deleted\": {\"name\": \"resource model\", \"object\": \"\\u041a\\u0443\\u0440\\u043c\\u0430\\u043d \\u043e\\u0442\\u043c\\u0435\\u043d\\u0438\\u043b \\u043f\\u0430\\u0440\\u044b \\u0432 \\u043f\\u044f\\u0442\\u043d\\u0438\\u0446\\u0443 | http://localhostl:8000/api/v1/account/login/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2024-11-02T19:27:50.148Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Курман отменил пары в пятницу",
+        "action_flag": 2,
+        "change_message": "[{\"deleted\": {\"name\": \"resource model\", \"object\": \"\\u041a\\u0443\\u0440\\u043c\\u0430\\u043d \\u043e\\u0442\\u043c\\u0435\\u043d\\u0438\\u043b \\u043f\\u0430\\u0440\\u044b \\u0432 \\u043f\\u044f\\u0442\\u043d\\u0438\\u0446\\u0443 | http://127.0.0.1:8000/api/v1/news/\"}}, {\"deleted\": {\"name\": \"resource model\", \"object\": \"\\u041a\\u0443\\u0440\\u043c\\u0430\\u043d \\u043e\\u0442\\u043c\\u0435\\u043d\\u0438\\u043b \\u043f\\u0430\\u0440\\u044b \\u0432 \\u043f\\u044f\\u0442\\u043d\\u0438\\u0446\\u0443 | http://localhost:8000/api/v1/schedule/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2024-11-02T19:46:36.336Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Асанкадыров Эмир - asan@mail.com | 1st course | Институт электроники и телекоммуникации | Инженер программист | ИСТ(б)1-23",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2024-11-02T19:51:16.762Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "2",
+        "object_repr": "Асанкадыров Эмир - asan@mail.com | 1st course | Институт электроники и телекоммуникации | Инженер программист | ИСТ(б)2-23",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2024-11-02T19:51:42.985Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Friday | ИСТ(б)2-23",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -783,6 +978,78 @@
     }
 },
 {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add news model",
+        "content_type": 13,
+        "codename": "add_newsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change news model",
+        "content_type": 13,
+        "codename": "change_newsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete news model",
+        "content_type": 13,
+        "codename": "delete_newsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view news model",
+        "content_type": 13,
+        "codename": "view_newsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add resource model",
+        "content_type": 14,
+        "codename": "add_resourcemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change resource model",
+        "content_type": 14,
+        "codename": "change_resourcemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete resource model",
+        "content_type": 14,
+        "codename": "delete_resourcemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view resource model",
+        "content_type": 14,
+        "codename": "view_resourcemodel"
+    }
+},
+{
     "model": "contenttypes.contenttype",
     "pk": 1,
     "fields": {
@@ -879,6 +1146,22 @@
     }
 },
 {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "news",
+        "model": "newsmodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "news",
+        "model": "resourcemodel"
+    }
+},
+{
     "model": "sessions.session",
     "pk": "qqzuza8u1ustnl09746svb31klai6dnx",
     "fields": {
@@ -941,6 +1224,24 @@
     }
 },
 {
+    "model": "account.customuser",
+    "pk": 9,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2024-11-02T16:20:03.096Z",
+        "username": "happy chaos",
+        "email": "hc@mail.com",
+        "password": "pbkdf2_sha256$870000$tFoo2IUx6ybPjO4EnuQQZ6$eeY58OxdvTrGsdMNF37Uw7rrXR5mweB2/BBkd7d/f3U=",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
     "model": "schedule.schedulemodel",
     "pk": 1,
     "fields": {
@@ -953,6 +1254,21 @@
         "sixth_lesson": null,
         "seventh_lesson": null,
         "group": 1
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 2,
+    "fields": {
+        "today": "Friday",
+        "first_lesson": 2,
+        "second_lesson": null,
+        "third_lesson": null,
+        "fourth_lesson": null,
+        "fifth_lesson": null,
+        "sixth_lesson": null,
+        "seventh_lesson": null,
+        "group": 2
     }
 },
 {
@@ -1028,6 +1344,42 @@
         "specialty": 1,
         "group_name": "ИСТ(б)2-23",
         "created_at": "2024-10-27T15:35:12.865Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 1,
+    "fields": {
+        "header": "Курман отменил пары в пятницу",
+        "content": "Можете не благодарить",
+        "created_at": "2024-11-02T19:01:16.973Z",
+        "updated_at": "2024-11-02T19:27:50.147Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 2,
+    "fields": {
+        "header": "Shikanokonokonoko koshtantan",
+        "content": "ЫЫЫЫЫ",
+        "created_at": "2024-11-02T19:25:53.418Z",
+        "updated_at": "2024-11-02T19:25:57.263Z"
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 1,
+    "fields": {
+        "link": "http://localhost:8000/api/v1/news/all/",
+        "news": 1
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 3,
+    "fields": {
+        "link": "http://localhost:8000/api/v1/schedule/",
+        "news": 2
     }
 }
 ]
