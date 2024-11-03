@@ -22,7 +22,7 @@ from drf_yasg.views import get_schema_view
 
 schema_view = get_schema_view(openapi.Info(
     title="KGTU schedule",
-    default_version="0.0.2",
+    default_version="0.1.0",
     description="This project used to help for KGTU's students in free plan"
 ), permission_classes=[AllowAny], public=True)
 

@@ -55,19 +55,16 @@ class TokenViewBase(generics.GenericAPIView):
         except TokenError as e:
             raise InvalidToken(e.args[0])
         
-        profile = []
-        
         try:
             user_profile = ProfileSerializer(
                 StudentProfileModel.objects.get(owner=user)
-                ).data.items()
-            profile.append(user_profile)
+                ).data
         except ObjectDoesNotExist:
-            profile = "User may not have profile"
+            user_profile = "User may not have profile"
 
         return Response({
             "token": serializer.validated_data,
-            "profile": profile
+            "profile": user_profile
         }, status=status.HTTP_200_OK)
 
 

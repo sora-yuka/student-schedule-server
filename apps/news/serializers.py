@@ -1,4 +1,4 @@
-from typing import Dict
+from typing import Dict, Any
 from rest_framework import serializers
 
 from .models import NewsModel, ResourceModel
@@ -17,7 +17,7 @@ class NewsSerializer(serializers.ModelSerializer):
         model = NewsModel
         fields = "__all__"
         
-    def to_representation(self, instance: NewsModel) -> Dict[str, str | str]:
+    def to_representation(self, instance: NewsModel) -> Dict[str, Any]:
         representation = super().to_representation(instance=instance)
         links = ResourceModel.objects.filter(news=instance.id)
         representation.update({"links": ResourceSerializer(links, many=True).data})
