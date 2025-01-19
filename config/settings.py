@@ -30,12 +30,12 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=True)
 
 ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(',')
-# ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'daphne', # External package
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -57,6 +57,7 @@ INSTALLED_APPS = [
     'apps.profiles',
     'apps.faculties',
     'apps.news',
+    'apps.chat',
 ]
 
 MIDDLEWARE = [
@@ -70,7 +71,10 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# CORS settings
+
+# CORS headers
+# https://pypi.org/project/django-cors-headers/
+
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:8080',
     'http://192.168.31.169:8080',
@@ -96,6 +100,21 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'config.wsgi.application'
+
+ASGI_APPLICATION = 'config.asgi.application'
+
+
+# Channel layers
+# https://channels.readthedocs.io/en/latest/topics/channel_layers.html
+
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            'hosts': [('127.0.0.1', 6379)]
+        }
+    }
+}
 
 AUTH_USER_MODEL = 'account.CustomUser'
 
@@ -196,7 +215,9 @@ SIMPLE_JWT = {
     'SLIDING_TOKEN_REFRESH_LIFETIME': timedelta(days=1),
 }
 
+
 # Documentation settings:
+
 SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS':{
         'api_key':{

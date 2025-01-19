@@ -23,7 +23,7 @@ class UserManager(BaseUserManager):
 
     def create_superuser(self, email, password, **extra_fields):
         from uuid import uuid4
-        username = f"admin {uuid4}"
+        username = f"admin | {email}"
         extra_fields.setdefault("is_staff", True)
         extra_fields.setdefault("is_superuser", True)
 

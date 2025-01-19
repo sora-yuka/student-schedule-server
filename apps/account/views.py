@@ -6,11 +6,13 @@ from rest_framework import generics, status
 from rest_framework.request import Request
 from rest_framework.response import Response
 from rest_framework.serializers import Serializer
+from rest_framework.generics import ListAPIView
 
 from rest_framework_simplejwt.authentication import AUTH_HEADER_TYPES
 from rest_framework_simplejwt.exceptions import InvalidToken, TokenError
 from rest_framework_simplejwt.settings import api_settings
 
+from .serializers import UserSerializer
 from apps.profiles.models import StudentProfileModel
 from apps.profiles.serializers import ProfileSerializer
 
@@ -78,3 +80,8 @@ class TokenObtainPairView(TokenViewBase):
 
 
 token_obtain_pair = TokenObtainPairView.as_view()
+
+
+class UserListAPIView(ListAPIView):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
