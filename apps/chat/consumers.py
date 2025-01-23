@@ -1,6 +1,7 @@
 import json
 from typing import List, Dict, Any
 from django.contrib.auth import get_user_model
+# from apps.account.models import CustomUser
 from channels.generic.websocket import AsyncWebsocketConsumer
 from channels.db import database_sync_to_async
 from .models import Room, Message

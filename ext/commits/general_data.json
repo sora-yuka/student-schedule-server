@@ -1,0 +1,1002 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-01-23T14:07:34.240Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "2",
+        "object_repr": "Copa - feelingjeez@gmail.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-01-23T14:07:36.874Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "2",
+        "object_repr": "Copa - feelingjeez@gmail.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-01-23T14:08:05.032Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "snk - snk@mk.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-01-23T14:08:09.664Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "snk - snk@mk.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-01-23T14:08:20.700Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "ИЭТ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-01-23T14:08:29.999Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "ИЭТ | ИСТ",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-01-23T14:09:34.313Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б)1-23",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-01-23T14:10:39.502Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Программирование бизнес приложений | Раззаков М. И. | 1/348",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-01-23T14:12:06.451Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Премьерный четверг. Какие фильмы сегодня вышли в прокат в Бишкеке",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"resource model\", \"object\": \"\\u041f\\u0440\\u0435\\u043c\\u044c\\u0435\\u0440\\u043d\\u044b\\u0439 \\u0447\\u0435\\u0442\\u0432\\u0435\\u0440\\u0433. \\u041a\\u0430\\u043a\\u0438\\u0435 \\u0444\\u0438\\u043b\\u044c\\u043c\\u044b \\u0441\\u0435\\u0433\\u043e\\u0434\\u043d\\u044f \\u0432\\u044b\\u0448\\u043b\\u0438 \\u0432 \\u043f\\u0440\\u043e\\u043a\\u0430\\u0442 \\u0432 \\u0411\\u0438\\u0448\\u043a\\u0435\\u043a\\u0435 | https://24.kg/obschestvo/317637_premernyiy_chetverg_kakie_filmyi_segodnya_vyishli_vprokat_vbishkeke/\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-01-23T14:12:16.579Z",
+        "user": 1,
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "Премьерный четверг. Какие фильмы сегодня вышли в прокат в Бишкеке",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-01-23T14:12:27.269Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Copa - feelingjeez@gmail.com | 2nd course | ИЭТ | ИСТ | ИСТ(б)1-23",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-01-23T14:12:56.121Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Wednesday | ИСТ(б)1-23",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 4,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 4,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 4,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 4,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 5,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 5,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 5,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 5,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 6,
+        "codename": "add_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 6,
+        "codename": "change_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 6,
+        "codename": "delete_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 6,
+        "codename": "view_customuser"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add schedule model",
+        "content_type": 7,
+        "codename": "add_schedulemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change schedule model",
+        "content_type": 7,
+        "codename": "change_schedulemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete schedule model",
+        "content_type": 7,
+        "codename": "delete_schedulemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view schedule model",
+        "content_type": 7,
+        "codename": "view_schedulemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add lessons model",
+        "content_type": 8,
+        "codename": "add_lessonsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change lessons model",
+        "content_type": 8,
+        "codename": "change_lessonsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete lessons model",
+        "content_type": 8,
+        "codename": "delete_lessonsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view lessons model",
+        "content_type": 8,
+        "codename": "view_lessonsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add student profile model",
+        "content_type": 9,
+        "codename": "add_studentprofilemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change student profile model",
+        "content_type": 9,
+        "codename": "change_studentprofilemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete student profile model",
+        "content_type": 9,
+        "codename": "delete_studentprofilemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view student profile model",
+        "content_type": 9,
+        "codename": "view_studentprofilemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add faculties model",
+        "content_type": 10,
+        "codename": "add_facultiesmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change faculties model",
+        "content_type": 10,
+        "codename": "change_facultiesmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete faculties model",
+        "content_type": 10,
+        "codename": "delete_facultiesmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view faculties model",
+        "content_type": 10,
+        "codename": "view_facultiesmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add specialty model",
+        "content_type": 11,
+        "codename": "add_specialtymodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change specialty model",
+        "content_type": 11,
+        "codename": "change_specialtymodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete specialty model",
+        "content_type": 11,
+        "codename": "delete_specialtymodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view specialty model",
+        "content_type": 11,
+        "codename": "view_specialtymodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add groups model",
+        "content_type": 12,
+        "codename": "add_groupsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change groups model",
+        "content_type": 12,
+        "codename": "change_groupsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete groups model",
+        "content_type": 12,
+        "codename": "delete_groupsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view groups model",
+        "content_type": 12,
+        "codename": "view_groupsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add news model",
+        "content_type": 13,
+        "codename": "add_newsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change news model",
+        "content_type": 13,
+        "codename": "change_newsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete news model",
+        "content_type": 13,
+        "codename": "delete_newsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view news model",
+        "content_type": 13,
+        "codename": "view_newsmodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add resource model",
+        "content_type": 14,
+        "codename": "add_resourcemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change resource model",
+        "content_type": 14,
+        "codename": "change_resourcemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete resource model",
+        "content_type": 14,
+        "codename": "delete_resourcemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view resource model",
+        "content_type": 14,
+        "codename": "view_resourcemodel"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add room",
+        "content_type": 15,
+        "codename": "add_room"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change room",
+        "content_type": 15,
+        "codename": "change_room"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete room",
+        "content_type": 15,
+        "codename": "delete_room"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view room",
+        "content_type": 15,
+        "codename": "view_room"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+        "name": "Can add message",
+        "content_type": 16,
+        "codename": "add_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+        "name": "Can change message",
+        "content_type": 16,
+        "codename": "change_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+        "name": "Can delete message",
+        "content_type": 16,
+        "codename": "delete_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+        "name": "Can view message",
+        "content_type": 16,
+        "codename": "view_message"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "account",
+        "model": "customuser"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "schedule",
+        "model": "schedulemodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "lessons",
+        "model": "lessonsmodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "profiles",
+        "model": "studentprofilemodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "faculties",
+        "model": "facultiesmodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "faculties",
+        "model": "specialtymodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "faculties",
+        "model": "groupsmodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "news",
+        "model": "newsmodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "news",
+        "model": "resourcemodel"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "chat",
+        "model": "room"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 16,
+    "fields": {
+        "app_label": "chat",
+        "model": "message"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "89v7og9oj5az090aui4kk6s3181als16",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAUBf-FtSEglwAu3fsNhPuoVA1NSrsy_rsh6UK3Z2bOW-WybzXvXdY8s7ooq06_GxZ6ShuAH6XdF01L29YZ9VD0Qbu-LSyv6-H-HdTS66i98cEHJh-BJnHWCUIwJOUMBCGSTSToU3CUQBIaJAQhI3FiGx2rzxfuXDib:1taxrV:F86CYnazA8ugKoD4oPPmCBg1o_eIquHRPBH3g97I8VU",
+        "expire_date": "2025-02-06T14:07:13.156Z"
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 1,
+    "fields": {
+        "last_login": "2025-01-23T14:07:13.133Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-01-23T14:07:05.490Z",
+        "username": "admin@mail.com",
+        "email": "admin@mail.com",
+        "password": "pbkdf2_sha256$870000$bA4Ht93A1ROjCMWH2DGm5q$lmrpH7NL05bly83Zz6PXTIoBalBkvXE5WZQjQGJmY9M=",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 2,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-01-23T14:07:33.755Z",
+        "username": "Copa",
+        "email": "feelingjeez@gmail.com",
+        "password": "pbkdf2_sha256$870000$f1X1YRsS11LlXHqgpn8aIR$+cVpsM7w5ip7Yvlo4PlhaWKkyLIX/KoH0xkgas/qUNg=",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 3,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-01-23T14:08:04.558Z",
+        "username": "snk",
+        "email": "snk@mk.com",
+        "password": "pbkdf2_sha256$870000$dlHWA99t7vaPpGsirKbF9p$cZTiU6Pdhu/P5Cj1NVQxPwAmXuZ0ZApgZnl8PoMm16w=",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 1,
+    "fields": {
+        "today": "Wednesday",
+        "first_lesson": 1,
+        "second_lesson": null,
+        "third_lesson": null,
+        "fourth_lesson": null,
+        "fifth_lesson": null,
+        "sixth_lesson": null,
+        "seventh_lesson": null,
+        "group": 1
+    }
+},
+{
+    "model": "lessons.lessonsmodel",
+    "pk": 1,
+    "fields": {
+        "lesson_type": "Practice",
+        "class_room": "1/348",
+        "lesson_name": "Программирование бизнес приложений",
+        "professor": "Раззаков М. И.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "profiles.studentprofilemodel",
+    "pk": 1,
+    "fields": {
+        "owner": 2,
+        "course": "2nd course",
+        "group": 1
+    }
+},
+{
+    "model": "faculties.facultiesmodel",
+    "pk": 1,
+    "fields": {
+        "faculty_name": "ИЭТ"
+    }
+},
+{
+    "model": "faculties.specialtymodel",
+    "pk": 1,
+    "fields": {
+        "faculty": 1,
+        "specialty_name": "ИСТ"
+    }
+},
+{
+    "model": "faculties.groupsmodel",
+    "pk": 1,
+    "fields": {
+        "faculty": 1,
+        "specialty": 1,
+        "group_name": "ИСТ(б)1-23",
+        "created_at": "2025-01-23T14:09:34.312Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 1,
+    "fields": {
+        "header": "Премьерный четверг. Какие фильмы сегодня вышли в прокат в Бишкеке",
+        "content": "Каждую неделю по четвергам в кинотеатрах Бишкека в прокат выходит несколько новых фильмов.\r\n\r\nС сегодняшнего дня можно посмотреть кыргызский триллер, детектив, основанный на реальных событиях, а также фильм с Тимоти Шаламе в роли Боба Дилана.",
+        "created_at": "2025-01-23T14:12:06.450Z",
+        "updated_at": "2025-01-23T14:12:16.578Z"
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 1,
+    "fields": {
+        "link": "https://24.kg/obschestvo/317637_premernyiy_chetverg_kakie_filmyi_segodnya_vyishli_vprokat_vbishkeke/",
+        "news": 1
+    }
+}
+]

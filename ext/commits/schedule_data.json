@@ -1,0 +1,17 @@
+[
+{
+    "model": "schedule.schedulemodel",
+    "pk": 1,
+    "fields": {
+        "today": "Wednesday",
+        "first_lesson": 1,
+        "second_lesson": null,
+        "third_lesson": null,
+        "fourth_lesson": null,
+        "fifth_lesson": null,
+        "sixth_lesson": null,
+        "seventh_lesson": null,
+        "group": 1
+    }
+}
+]

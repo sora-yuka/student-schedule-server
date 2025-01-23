@@ -1,0 +1,13 @@
+[
+{
+    "model": "lessons.lessonsmodel",
+    "pk": 1,
+    "fields": {
+        "lesson_type": "Practice",
+        "class_room": "1/348",
+        "lesson_name": "Программирование бизнес приложений",
+        "professor": "Раззаков М. И.",
+        "number_of_weeks": "1-16"
+    }
+}
+]
