@@ -31,7 +31,6 @@ urlpatterns = [
     path('swagger/', schema_view.with_ui(renderer="swagger")),
     path('api/v1/account/', include('apps.account.urls')),
     path('api/v1/schedule/', include('apps.schedule.urls')),
-    path('api/v1/lessons/', include('apps.lessons.urls')),
     path('api/v1/faculty/', include('apps.faculties.urls')),
     path('api/v1/news/', include('apps.news.urls')),
     path('api/v1/chat/', include('apps.chat.urls')),

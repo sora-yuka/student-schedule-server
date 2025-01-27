@@ -2,9 +2,20 @@ from django.contrib import admin
 from django.db.models import Model
 from django.contrib.admin.exceptions import AlreadyRegistered
 
-from .models import ScheduleModel
+from .models import LessonModel, ScheduleModel, SemesterScheduleModel
 
 # Register your models here.
+
+
+class LessonInline(admin.TabularInline):
+    model = LessonModel
+    extra = 1
+    
+    
+@admin.register(ScheduleModel)
+class ScheduleAdmin(admin.ModelAdmin):
+    inlines = [LessonInline]
+
 
 def admin_register(model: Model, admin_class: admin.ModelAdmin = None) -> None:
     try:
@@ -12,4 +23,4 @@ def admin_register(model: Model, admin_class: admin.ModelAdmin = None) -> None:
     except AlreadyRegistered:
         pass
     
-admin_register(model=ScheduleModel)
+admin_register(model=SemesterScheduleModel)

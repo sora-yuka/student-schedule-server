@@ -1,10 +1,15 @@
 from django.db.models.query import QuerySet
 from rest_framework.generics import ListAPIView
 
-from .models import ScheduleModel
-from .serializers import ScheduleSerializer
+from .models import LessonModel, ScheduleModel
+from .serializers import LessonSerializer, ScheduleSerializer
 
 # Create your views here.
+
+
+class LessonListAPIView(ListAPIView):
+    serializer_class = LessonSerializer
+    queryset = LessonModel.objects.all()
 
 
 class ScheduleListAPIView(ListAPIView):

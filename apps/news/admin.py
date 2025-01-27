@@ -10,5 +10,5 @@ class ResourceInline(admin.TabularInline):
 
 
 @admin.register(NewsModel)
-class NewsModel(admin.ModelAdmin):
+class NewsAdmin(admin.ModelAdmin):
     inlines = [ResourceInline]
