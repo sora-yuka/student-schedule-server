@@ -80,8 +80,3 @@ class TokenObtainPairView(TokenViewBase):
 
 
 token_obtain_pair = TokenObtainPairView.as_view()
-
-
-class UserListAPIView(ListAPIView):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer

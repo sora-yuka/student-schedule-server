@@ -8,9 +8,9 @@ from ext.choices import SEMESTER, WEEK_DAYS, WEEK_VARIANCE, LESSON_TYPE, PERIOD
     
 class LessonModel(models.Model):
     schedule = models.ForeignKey(to="ScheduleModel", on_delete=models.CASCADE)
-    period = models.CharField(max_length=100, choices=PERIOD)
-    week_variance = models.CharField(max_length=100, blank=True, null=True, choices=WEEK_VARIANCE)
-    lesson_type = models.CharField(max_length=100, choices=LESSON_TYPE)
+    period = models.CharField(max_length=100, null=True, blank=True, choices=PERIOD)
+    week_variance = models.CharField(max_length=100, null=True, blank=True, choices=WEEK_VARIANCE)
+    lesson_type = models.CharField(max_length=100, null=True, blank=True, choices=LESSON_TYPE)
     class_room = models.CharField(max_length=200)
     lesson_name = models.CharField(max_length=200)
     professor = models.CharField(max_length=200)

@@ -11,6 +11,7 @@ User = get_user_model()
 
 class StudentProfileModel(models.Model):
     owner = models.OneToOneField(to=User, on_delete=models.CASCADE)
+    pfp = models.ImageField(upload_to="uploads/", blank=True)
     course = models.CharField(max_length=100, choices=COURSE)
     group = models.ForeignKey(to=GroupsModel, on_delete=models.CASCADE)
     

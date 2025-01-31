@@ -1,8 +1,9 @@
 from django.urls import path
 
-from .views import ScheduleListAPIView
+from .views import SemesterScheduleListAPIView, LessonListAPIView
 
 
 urlpatterns = [
-    path("", ScheduleListAPIView.as_view())
+    path("", SemesterScheduleListAPIView.as_view()),
+    path("lessons/", LessonListAPIView.as_view())
 ]
