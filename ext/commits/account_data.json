@@ -3,16 +3,16 @@
     "model": "account.customuser",
     "pk": 1,
     "fields": {
-        "last_login": "2025-01-23T14:07:13.133Z",
+        "last_login": "2025-02-18T13:12:25.452Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
         "is_staff": true,
         "is_active": true,
-        "date_joined": "2025-01-23T14:07:05.490Z",
-        "username": "admin@mail.com",
+        "date_joined": "2025-02-18T13:12:10.644Z",
+        "username": "admin | admin@mail.com",
         "email": "admin@mail.com",
-        "password": "pbkdf2_sha256$870000$bA4Ht93A1ROjCMWH2DGm5q$lmrpH7NL05bly83Zz6PXTIoBalBkvXE5WZQjQGJmY9M=",
+        "password": "pbkdf2_sha256$870000$cbKvxpKt3RaZv1n5rDpgHy$DJmye9xedCvBAQKIPJx4O2yEDyji/5DcjV7xsuL/4N8=",
         "groups": [],
         "user_permissions": []
     }
@@ -27,28 +27,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-01-23T14:07:33.755Z",
+        "date_joined": "2025-02-18T13:12:40.283Z",
         "username": "Copa",
-        "email": "feelingjeez@gmail.com",
-        "password": "pbkdf2_sha256$870000$f1X1YRsS11LlXHqgpn8aIR$+cVpsM7w5ip7Yvlo4PlhaWKkyLIX/KoH0xkgas/qUNg=",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "account.customuser",
-    "pk": 3,
-    "fields": {
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2025-01-23T14:08:04.558Z",
-        "username": "snk",
-        "email": "snk@mk.com",
-        "password": "pbkdf2_sha256$870000$dlHWA99t7vaPpGsirKbF9p$cZTiU6Pdhu/P5Cj1NVQxPwAmXuZ0ZApgZnl8PoMm16w=",
+        "email": "user@mail.com",
+        "password": "pbkdf2_sha256$870000$ueKiKM4U0iUZXC1lI36MOI$H9wD7DGc5jNrDRX1rfk62VWr6AX/vAOZTob6c6Q3e7M=",
         "groups": [],
         "user_permissions": []
     }

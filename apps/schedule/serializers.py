@@ -1,6 +1,7 @@
 from typing import Dict, Any
 from rest_framework import serializers
 
+from ext.choices import WEEK_DAYS
 from .models import LessonModel, ScheduleModel, SemesterScheduleModel
 
 
@@ -22,22 +23,17 @@ class SemesterScheduleSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = SemesterScheduleModel
-        exclude = ["id", "onset", "end", "semester", "group"]
+        exclude = ["id", "onset", "end", "semester", "group", "schedules", "course"]
         
     def to_representation(self, instance: SemesterScheduleModel) -> Dict[str, Any]:
         representation = super().to_representation(instance=instance)
-        days = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
-        
-        for day in days:
-            day_schedule = getattr(instance, day)
-            
-            if day_schedule:
-                schedule_data = ScheduleSerializer(day_schedule).data
-                representation[day] = [
-                    LessonSerializer(lesson).data 
-                    for lesson in LessonModel.objects.filter(schedule=schedule_data.get("id"))
-                ]
-            else:
-                representation[day] = "Insent day"
+
+        for day, _ in WEEK_DAYS:
+            try:
+                schedule = instance.schedules.get(week_day=day)  # Get the schedule for the day
+                lessons = LessonModel.objects.filter(schedule=schedule)
+                representation[day] = [LessonSerializer(lesson).data for lesson in lessons][0]
+            except ScheduleModel.DoesNotExist:
+                representation[day] = "No schedule"  # Or some other default value
+
         return representation
-        

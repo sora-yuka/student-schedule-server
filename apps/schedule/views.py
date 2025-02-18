@@ -33,7 +33,7 @@ class SemesterScheduleListAPIView(ListAPIView):
         current_schedule = []
         
         for schedule in schedules:
-            if schedule.onset <= current_date <= schedule.end:
+            if schedule.onset <= current_date <= schedule.end and schedule.course == user_profile.course:
                 current_schedule.append(schedule)
         
         return SemesterScheduleModel.objects.filter(id__in=[item.id for item in current_schedule])
