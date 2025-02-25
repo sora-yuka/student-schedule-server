@@ -1,82 +1,109 @@
-from django.utils.module_loading import import_string
 from django.core.exceptions import ObjectDoesNotExist
 from django.contrib.auth import get_user_model
 
-from rest_framework import generics, status
+from rest_framework import status
 from rest_framework.request import Request
 from rest_framework.response import Response
-from rest_framework.serializers import Serializer
-from rest_framework.generics import ListAPIView
+from rest_framework.views import APIView
 
-from rest_framework_simplejwt.authentication import AUTH_HEADER_TYPES
-from rest_framework_simplejwt.exceptions import InvalidToken, TokenError
-from rest_framework_simplejwt.settings import api_settings
-
-from .serializers import UserSerializer
-from apps.profiles.models import StudentProfileModel
-from apps.profiles.serializers import ProfileSerializer
+from rest_framework_simplejwt.views import (
+    TokenObtainPairView as TokenObtain,
+    TokenRefreshView as TokenRefresh
+)
 
 
 User = get_user_model()
 
 
-class TokenViewBase(generics.GenericAPIView):
-    permission_classes = ()
-    authentication_classes = ()
-
-    serializer_class = None
-    _serializer_class = ""
-
-    www_authenticate_realm = "api"
-
-    def get_serializer_class(self) -> Serializer:
-        """
-        If serializer_class is set, use it directly. Otherwise get the class from settings.
-        """
-
-        if self.serializer_class:
-            return self.serializer_class
-        try:
-            return import_string(self._serializer_class)
-        except ImportError:
-            msg = "Could not import serializer '%s'" % self._serializer_class
-            raise ImportError(msg)
-
-    def get_authenticate_header(self, request: Request) -> str:
-        return '{} realm="{}"'.format(
-            AUTH_HEADER_TYPES[0],
-            self.www_authenticate_realm,
-        )
-
+class TokenObtainPairView(TokenObtain):
     def post(self, request: Request, *args, **kwargs) -> Response:
-        serializer = self.get_serializer(data=request.data)
-        user = User.objects.get(email=request.data["email"])
-
         try:
-            serializer.is_valid(raise_exception=True)
-        except TokenError as e:
-            raise InvalidToken(e.args[0])
-        
-        try:
-            user_profile = ProfileSerializer(
-                StudentProfileModel.objects.get(owner=user)
-                ).data
-        except ObjectDoesNotExist:
-            user_profile = "User may not have profile"
+            token_response = super().post(request, *args, **kwargs)
+            token_data = token_response.data
+            
+            access_token = token_data.get("access")
+            refresh_token = token_data.get("refresh")
+            
+            response = Response(data={
+                "MESSAGE": "Access is permitted",
+            }, status=status.HTTP_200_OK)
+            
+            response.set_cookie(
+                key="access_token",
+                value=access_token,
+                path="/",
+                secure=True,
+                httponly=True,
+                samesite="Strict",
+            )
+            
+            response.set_cookie(
+                key="refresh_token",
+                value=refresh_token,
+                path="/",
+                secure=True,
+                httponly=True,
+                samesite="Strict",
+            )
+            return response
+        except Exception as error:
+            # logger will be here soon
+            return Response(data={
+                "MESSAGE": "Access is denied",    
+            }, status=status.HTTP_400_BAD_REQUEST)
+            
 
-        return Response({
-            "token": serializer.validated_data,
-            "profile": user_profile
+class TokenRefreshView(TokenRefresh):
+    def post(self, request: Request, *args, **kwargs) -> Response:
+        try:
+            refresh_token = request.COOKIES.get("refresh_token")
+            request.data._mutable = True
+            request.data["refresh"] = refresh_token
+            
+            token_response = super().post(request, *args, **kwargs)
+            token_data = token_response.data
+            
+            access_token = token_data.get("access_token")
+            
+            response = Response(data={
+                "MESSAGE": "Access is permitted",
+            }, status=status.HTTP_200_OK)
+            
+            response.set_cookie(
+                key="access_token",
+                value=access_token,
+                path="/",
+                secure=True,
+                httponly=True,
+                samesite="Strict",
+            )
+        except Exception as error:
+            # logger will be here soon
+            return Response(data={
+                "MESSAGE": "Token refresh failed",
+            }, status=status.HTTP_400_BAD_REQUEST)
+            
+
+class UserLogoutView(APIView):
+    def post(self, request: Request, *args, **kwargs) -> Response:
+        response = Response(data={
+            "MESSAGE": "Successfully logged out",
         }, status=status.HTTP_200_OK)
+        
+        response.delete_cookie(key="access_token", path="/", samesite="Strict")
+        response.delete_cookie(key="refresh_token", path="/", samesite="Strict")
+        return response
 
 
-class TokenObtainPairView(TokenViewBase):
-    """
-    Takes a set of user credentials and returns an access and refresh JSON web
-    token pair to prove the authentication of those credentials.
-    """
-
-    _serializer_class = api_settings.TOKEN_OBTAIN_SERIALIZER
-
-
-token_obtain_pair = TokenObtainPairView.as_view()
+class CheckAuthView(APIView):
+    def get(self, request: Request, *args, **kwargs) -> Response:
+        current_user = self.request.user
+        
+        if current_user.is_anonymous:
+            return Response(data={
+                "MESSAGE": "Unauthorized user",
+            }, status=status.HTTP_401_UNAUTHORIZED)
+            
+        return Response(data={
+            "MESSAGE": "Authorized user",
+        }, status=status.HTTP_200_OK)

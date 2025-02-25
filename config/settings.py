@@ -75,8 +75,8 @@ MIDDLEWARE = [
 # https://pypi.org/project/django-cors-headers/
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:8080',
-    'http://192.168.31.169:8080',
+    'http://localhost:5173',
+    'http://192.168.31.169:5173',
     'http://localhost:3000',
 ]
 
@@ -180,7 +180,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ),
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'apps.account.authentication.CookiesJWTAuthentication',
     ),
 }
 

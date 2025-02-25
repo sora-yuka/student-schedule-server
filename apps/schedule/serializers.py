@@ -23,17 +23,17 @@ class SemesterScheduleSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = SemesterScheduleModel
-        exclude = ["id", "onset", "end", "semester", "group", "schedules", "course"]
+        exclude = ["onset", "end", "semester", "group", "schedules", "course"]
         
     def to_representation(self, instance: SemesterScheduleModel) -> Dict[str, Any]:
         representation = super().to_representation(instance=instance)
 
         for day, _ in WEEK_DAYS:
-            try:
-                schedule = instance.schedules.get(week_day=day)  # Get the schedule for the day
-                lessons = LessonModel.objects.filter(schedule=schedule)
-                representation[day] = [LessonSerializer(lesson).data for lesson in lessons][0]
-            except ScheduleModel.DoesNotExist:
-                representation[day] = "No schedule"  # Or some other default value
+            schedules = instance.schedules.filter(week_day=day)
+            if schedules.exists():
+                lessons = LessonModel.objects.filter(schedule__in=schedules)
+                representation[day] = [LessonSerializer(lesson).data for lesson in lessons]
+            else:
+                representation[day] = "No schedule" 
 
         return representation

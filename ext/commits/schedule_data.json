@@ -1,0 +1,80 @@
+[
+{
+    "model": "schedule.schedulemodel",
+    "pk": 1,
+    "fields": {
+        "week_day": "Monday",
+        "group": 1,
+        "semester": "Autumn"
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 2,
+    "fields": {
+        "week_day": "Friday",
+        "group": 1,
+        "semester": "Autumn"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 1,
+    "fields": {
+        "schedule": 1,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": null,
+        "lesson_type": "Practice",
+        "class_room": "1 корпус, ауд. 1/348",
+        "lesson_name": "Проектирование и разработка веб-приложений",
+        "professor": "Аманкулова Н.А.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 2,
+    "fields": {
+        "schedule": 1,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": "Even",
+        "lesson_type": "Practice",
+        "class_room": "3 корпус, ауд. 3/110",
+        "lesson_name": "Программировани бизес приложений",
+        "professor": "Раззаков М.И.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 3,
+    "fields": {
+        "schedule": 2,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": null,
+        "lesson_type": "Practice",
+        "class_room": "3 корпус, ауд. 3/217",
+        "lesson_name": "Программирование бизнес приложений",
+        "professor": "Раззаков М.И.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.semesterschedulemodel",
+    "pk": 1,
+    "fields": {
+        "onset": "2025-01-20",
+        "end": "2025-05-23",
+        "semester": "Autumn",
+        "group": 1,
+        "course": "2nd course",
+        "schedules": [
+            1,
+            2
+        ]
+    }
+}
+]

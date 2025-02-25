@@ -43,6 +43,8 @@ services:
     environment: *server-variables
     ports:
       - "8000:8000"
+    volumes:
+      - ./media:/app/media
     depends_on: # it guaranteed that other service will run before this one.
     # to run depended service after it's ready, you should use 'condition: service_healthy'
       postgres:

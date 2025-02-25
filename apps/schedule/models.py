@@ -1,7 +1,7 @@
 from django.db import models
 
 from apps.faculties.models import GroupsModel
-from ext.choices import SEMESTER, WEEK_DAYS, WEEK_VARIANCE, LESSON_TYPE, PERIOD, COURSE
+from ext.choices import SEMESTER, WEEK_DAYS, WEEK_VARIANCE, LESSON_TYPE, START_PERIOD, END_PERIOD, COURSE
 
 # Create your models here.
     
@@ -17,7 +17,8 @@ class ScheduleModel(models.Model):
 
 class LessonModel(models.Model):
     schedule = models.ForeignKey(to="ScheduleModel", on_delete=models.CASCADE)
-    period = models.CharField(max_length=100, null=True, blank=True, choices=PERIOD)
+    start_period = models.CharField(max_length=100, null=True, blank=True, choices=START_PERIOD)
+    end_period = models.CharField(max_length=100, null=True, blank=True, choices=END_PERIOD)
     week_variance = models.CharField(max_length=100, null=True, blank=True, choices=WEEK_VARIANCE)
     lesson_type = models.CharField(max_length=100, null=True, blank=True, choices=LESSON_TYPE)
     class_room = models.CharField(max_length=200)

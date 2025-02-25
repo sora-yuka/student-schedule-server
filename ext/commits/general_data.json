@@ -78,6 +78,84 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-02-18T13:28:40.430Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Monday",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u0432\\u0435\\u0431-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0410\\u043c\\u0430\\u043d\\u043a\\u0443\\u043b\\u043e\\u0432\\u0430 \\u041d.\\u0410. | 1 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 1/348\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438 \\u0431\\u0438\\u0437\\u0435\\u0441 \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 3/110\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-02-18T13:31:08.305Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Friday | Autumn",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441 \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 3/217\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-02-18T13:31:30.702Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Autumn semester | FROM '2025-01-20' TO '2025-05-23' | ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-02-24T18:33:51.905Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Monday | Autumn",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u0432\\u0435\\u0431-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0410\\u043c\\u0430\\u043d\\u043a\\u0443\\u043b\\u043e\\u0432\\u0430 \\u041d.\\u0410. | 1 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 1/348\", \"fields\": [\"Start period\", \"End period\"]}}, {\"changed\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438 \\u0431\\u0438\\u0437\\u0435\\u0441 \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 3/110\", \"fields\": [\"Start period\", \"End period\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-02-24T18:33:54.840Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Monday | Autumn",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-02-24T18:34:16.390Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Friday | Autumn",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441 \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 3/217\", \"fields\": [\"Start period\", \"End period\"]}}]"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -834,10 +912,18 @@
     }
 },
 {
+    "model": "sessions.session",
+    "pk": "3he91ynqf3suf0jn3asjvujlazni7hm3",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQAP-yZ0NYSin06N03kAUWqRpISnsy_t006UGvM5N5g6d9K37vvPolwQwIl18WKD65HiI9qN6biK1u6xLEkYjTdnFriV_Xs_0bFOoFZnAqZHaBrUEmlSd2iKgzB0lmNMrmSDgoyYMK2klj5CSNs4O1mnMaE8LnC-jzN3o:1tmdDE:dmp63Uv37Id3mQd6xP_Tw4cy1TtFxLD4CIGfKWXVwFk",
+        "expire_date": "2025-03-10T18:29:52.028Z"
+    }
+},
+{
     "model": "account.customuser",
     "pk": 1,
     "fields": {
-        "last_login": "2025-02-18T13:12:25.452Z",
+        "last_login": "2025-02-24T18:29:52.023Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
@@ -867,6 +953,84 @@
         "password": "pbkdf2_sha256$870000$ueKiKM4U0iUZXC1lI36MOI$H9wD7DGc5jNrDRX1rfk62VWr6AX/vAOZTob6c6Q3e7M=",
         "groups": [],
         "user_permissions": []
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 1,
+    "fields": {
+        "week_day": "Monday",
+        "group": 1,
+        "semester": "Autumn"
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 2,
+    "fields": {
+        "week_day": "Friday",
+        "group": 1,
+        "semester": "Autumn"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 1,
+    "fields": {
+        "schedule": 1,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": null,
+        "lesson_type": "Practice",
+        "class_room": "1 корпус, ауд. 1/348",
+        "lesson_name": "Проектирование и разработка веб-приложений",
+        "professor": "Аманкулова Н.А.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 2,
+    "fields": {
+        "schedule": 1,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": "Even",
+        "lesson_type": "Practice",
+        "class_room": "3 корпус, ауд. 3/110",
+        "lesson_name": "Программировани бизес приложений",
+        "professor": "Раззаков М.И.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 3,
+    "fields": {
+        "schedule": 2,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": null,
+        "lesson_type": "Practice",
+        "class_room": "3 корпус, ауд. 3/217",
+        "lesson_name": "Программирование бизнес приложений",
+        "professor": "Раззаков М.И.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.semesterschedulemodel",
+    "pk": 1,
+    "fields": {
+        "onset": "2025-01-20",
+        "end": "2025-05-23",
+        "semester": "Autumn",
+        "group": 1,
+        "course": "2nd course",
+        "schedules": [
+            1,
+            2
+        ]
     }
 },
 {
