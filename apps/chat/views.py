@@ -8,3 +8,7 @@ from .serializers import RoomSerializer, MessageSerializer
 class MessageListAPIView(ListAPIView):
     queryset = Message.objects.all()
     serializer_class = MessageSerializer
+    
+    # def get_object(self) -> Message:
+    #     user = self.user.request
+    #     messages = Message.objects.get()

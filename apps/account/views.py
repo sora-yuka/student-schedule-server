@@ -26,6 +26,7 @@ class TokenObtainPairView(TokenObtain):
             
             response = Response(data={
                 "MESSAGE": "Access is permitted",
+                "ACCESS TOKEN": access_token,
             }, status=status.HTTP_200_OK)
             
             response.set_cookie(

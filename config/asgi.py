@@ -18,6 +18,7 @@ from channels.auth import AuthMiddlewareStack
 from channels.routing import ProtocolTypeRouter, URLRouter
 from apps.chat.routing import websocket_urlpatterns
 from apps.chat.middleware import JWTWebsocketMiddleware
+from ext.original_jwtauthentication import CustomJWT
 
 
 application = ProtocolTypeRouter({

@@ -156,6 +156,162 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-02-24T19:42:21.277Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Monday | Autumn",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-02-25T16:03:43.537Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "В Амазонке обнаружен новый вид светящихся грибов",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"resource model\", \"object\": \"\\u0412 \\u0410\\u043c\\u0430\\u0437\\u043e\\u043d\\u043a\\u0435 \\u043e\\u0431\\u043d\\u0430\\u0440\\u0443\\u0436\\u0435\\u043d \\u043d\\u043e\\u0432\\u044b\\u0439 \\u0432\\u0438\\u0434 \\u0441\\u0432\\u0435\\u0442\\u044f\\u0449\\u0438\\u0445\\u0441\\u044f \\u0433\\u0440\\u0438\\u0431\\u043e\\u0432 | https://some-journal.com/random/article\"}}, {\"added\": {\"name\": \"resource model\", \"object\": \"\\u0412 \\u0410\\u043c\\u0430\\u0437\\u043e\\u043d\\u043a\\u0435 \\u043e\\u0431\\u043d\\u0430\\u0440\\u0443\\u0436\\u0435\\u043d \\u043d\\u043e\\u0432\\u044b\\u0439 \\u0432\\u0438\\u0434 \\u0441\\u0432\\u0435\\u0442\\u044f\\u0449\\u0438\\u0445\\u0441\\u044f \\u0433\\u0440\\u0438\\u0431\\u043e\\u0432 | https://another-journal.com/random/article\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-02-25T16:08:48.656Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "Создан биопластик из отходов морепродуктов",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"resource model\", \"object\": \"\\u0421\\u043e\\u0437\\u0434\\u0430\\u043d \\u0431\\u0438\\u043e\\u043f\\u043b\\u0430\\u0441\\u0442\\u0438\\u043a \\u0438\\u0437 \\u043e\\u0442\\u0445\\u043e\\u0434\\u043e\\u0432 \\u043c\\u043e\\u0440\\u0435\\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u043e\\u0432 | https://science-journal/random/article\"}}, {\"added\": {\"name\": \"resource model\", \"object\": \"\\u0421\\u043e\\u0437\\u0434\\u0430\\u043d \\u0431\\u0438\\u043e\\u043f\\u043b\\u0430\\u0441\\u0442\\u0438\\u043a \\u0438\\u0437 \\u043e\\u0442\\u0445\\u043e\\u0434\\u043e\\u0432 \\u043c\\u043e\\u0440\\u0435\\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u043e\\u0432 | https://not.real.site.com/random/article\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-02-25T17:29:23.799Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "3",
+        "object_repr": "Искусственный интеллект помог обнаружить новую экзопланету",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2025-02-25T17:29:41.514Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "4",
+        "object_repr": "Разработан съедобный датчик для контроля свежести продуктов",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2025-02-25T17:30:02.409Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "5",
+        "object_repr": "В Антарктиде обнаружены следы древнего леса",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2025-02-25T17:30:26.456Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "6",
+        "object_repr": "Создан прототип летающего автомобиля",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2025-03-06T15:23:48.322Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "user - usr@bn.com",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2025-03-06T15:23:49.843Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "user - usr@bn.com",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2025-03-06T15:24:00.095Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "user - usr@bn.com | 1st course | ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2025-03-06T17:01:48.706Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "user - usr@bn.com | 1st course | ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pfp\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2025-03-06T17:04:32.321Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "user - usr@bn.com | 1st course | ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Pfp\"]}}]"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -920,10 +1076,26 @@
     }
 },
 {
+    "model": "sessions.session",
+    "pk": "4f4ls2vjgrv07k7g2plsa0f83w70rbz9",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQAP-yZ0NYSin06N03kAUWqRpISnsy_t006UGvM5N5g6d9K37vvPolwQwIl18WKD65HiI9qN6biK1u6xLEkYjTdnFriV_Xs_0bFOoFZnAqZHaBrUEmlSd2iKgzB0lmNMrmSDgoyYMK2klj5CSNs4O1mnMaE8LnC-jzN3o:1tmeLJ:392xbPFtVQisDNZt9Kdpk4j4OPaZPvyyYqTOyj985K4",
+        "expire_date": "2025-03-10T19:42:17.918Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "l7ylzd1vzjrekdogniwqwik8qbsx3asf",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQAP-yZ0NYSin06N03kAUWqRpISnsy_t006UGvM5N5g6d9K37vvPolwQwIl18WKD65HiI9qN6biK1u6xLEkYjTdnFriV_Xs_0bFOoFZnAqZHaBrUEmlSd2iKgzB0lmNMrmSDgoyYMK2klj5CSNs4O1mnMaE8LnC-jzN3o:1tqyIF:4wU6jixpabPFFqdvxzBFHy1UPTKrLXXAcckDH1x5Wt0",
+        "expire_date": "2025-03-22T17:48:59.646Z"
+    }
+},
+{
     "model": "account.customuser",
     "pk": 1,
     "fields": {
-        "last_login": "2025-02-24T18:29:52.023Z",
+        "last_login": "2025-03-08T17:48:59.641Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
@@ -951,6 +1123,24 @@
         "username": "Copa",
         "email": "user@mail.com",
         "password": "pbkdf2_sha256$870000$ueKiKM4U0iUZXC1lI36MOI$H9wD7DGc5jNrDRX1rfk62VWr6AX/vAOZTob6c6Q3e7M=",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 3,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-03-06T15:23:47.808Z",
+        "username": "user",
+        "email": "usr@bn.com",
+        "password": "pbkdf2_sha256$870000$XpwuDQBFA4njRSaHs0edVP$1B6nviaVmbDupTSS51CBImC7HNBDT6OmsMfyH+C52JM=",
         "groups": [],
         "user_permissions": []
     }
@@ -1044,6 +1234,16 @@
     }
 },
 {
+    "model": "profiles.studentprofilemodel",
+    "pk": 2,
+    "fields": {
+        "owner": 3,
+        "pfp": "uploads/fbe68fce4021096d8dfbe2403385ab65.jpg",
+        "course": "1st course",
+        "group": 1
+    }
+},
+{
     "model": "faculties.facultiesmodel",
     "pk": 1,
     "fields": {
@@ -1066,6 +1266,222 @@
         "specialty": 1,
         "group_name": "ИСТ(б) 1-23",
         "created_at": "2025-02-18T13:13:30.599Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 1,
+    "fields": {
+        "header": "В Амазонке обнаружен новый вид светящихся грибов",
+        "content": "Ученые открыли в тропических лесах Амазонки новый вид грибов, излучающих яркое зеленое свечение. Грибы, названные \"Mycеna luxaeterna\", растут на гнилой древесине и светятся ночью, привлекая насекомых. Это открытие подчеркивает богатство биоразнообразия Амазонки.",
+        "created_at": "2025-02-25T16:03:43.532Z",
+        "updated_at": "2025-02-25T16:03:43.532Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 2,
+    "fields": {
+        "header": "Создан биопластик из отходов морепродуктов",
+        "content": "Ученые разработали биоразлагаемый пластик из хитина, содержащегося в панцирях ракообразных. Новый материал, \"ChitoPlast\", полностью разлагается и может заменить обычный пластик.",
+        "created_at": "2025-02-25T16:08:48.655Z",
+        "updated_at": "2025-02-25T16:08:48.655Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 3,
+    "fields": {
+        "header": "Искусственный интеллект помог обнаружить новую экзопланету",
+        "content": "Используя алгоритмы ИИ, астрономы обнаружили экзопланету, вращающуюся вокруг звезды, похожей на Солнце. Планета потенциально может поддерживать жизнь.",
+        "created_at": "2025-02-25T17:29:23.799Z",
+        "updated_at": "2025-02-25T17:29:23.799Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 4,
+    "fields": {
+        "header": "Разработан съедобный датчик для контроля свежести продуктов",
+        "content": "Ученые создали съедобный датчик, который меняет цвет, указывая на степень свежести продуктов. Датчик может сократить пищевые отходы.",
+        "created_at": "2025-02-25T17:29:41.513Z",
+        "updated_at": "2025-02-25T17:29:41.513Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 5,
+    "fields": {
+        "header": "В Антарктиде обнаружены следы древнего леса",
+        "content": "Геологи обнаружили окаменелые остатки древнего леса, существовавшего в Антарктиде миллионы лет назад. Это открытие проливает свет на климат прошлого.",
+        "created_at": "2025-02-25T17:30:02.408Z",
+        "updated_at": "2025-02-25T17:30:02.408Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 6,
+    "fields": {
+        "header": "Создан прототип летающего автомобиля",
+        "content": "Инженеры представили прототип летающего автомобиля, способного вертикально взлетать и приземляться. Ожидается, что технология изменит городскую мобильность.",
+        "created_at": "2025-02-25T17:30:26.455Z",
+        "updated_at": "2025-02-25T17:30:26.455Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 11,
+    "fields": {
+        "header": "В Амазонке обнаружен новый вид светящихся грибов",
+        "content": "Ученые открыли в тропических лесах Амазонки новый вид грибов, излучающих яркое зеленое свечение. Грибы, названные \"Mycеna luxaeterna\", растут на гнилой древесине и светятся ночью, привлекая насекомых. Это открытие подчеркивает богатство биоразнообразия Амазонки.",
+        "created_at": "2025-02-25T16:03:43.532Z",
+        "updated_at": "2025-02-25T16:03:43.532Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 12,
+    "fields": {
+        "header": "Создан биопластик из отходов морепродуктов",
+        "content": "Ученые разработали биоразлагаемый пластик из хитина, содержащегося в панцирях ракообразных. Новый материал, \"ChitoPlast\", полностью разлагается и может заменить обычный пластик.",
+        "created_at": "2025-02-25T16:08:48.655Z",
+        "updated_at": "2025-02-25T16:08:48.655Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 13,
+    "fields": {
+        "header": "Искусственный интеллект помог обнаружить новую экзопланету",
+        "content": "Используя алгоритмы ИИ, астрономы обнаружили экзопланету, вращающуюся вокруг звезды, похожей на Солнце. Планета потенциально может поддерживать жизнь.",
+        "created_at": "2025-02-25T17:29:23.799Z",
+        "updated_at": "2025-02-25T17:29:23.799Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 14,
+    "fields": {
+        "header": "Разработан съедобный датчик для контроля свежести продуктов",
+        "content": "Ученые создали съедобный датчик, который меняет цвет, указывая на степень свежести продуктов. Датчик может сократить пищевые отходы.",
+        "created_at": "2025-02-25T17:29:41.513Z",
+        "updated_at": "2025-02-25T17:29:41.513Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 15,
+    "fields": {
+        "header": "В Антарктиде обнаружены следы древнего леса",
+        "content": "Геологи обнаружили окаменелые остатки древнего леса, существовавшего в Антарктиде миллионы лет назад. Это открытие проливает свет на климат прошлого.",
+        "created_at": "2025-02-25T17:30:02.408Z",
+        "updated_at": "2025-02-25T17:30:02.408Z"
+    }
+},
+{
+    "model": "news.newsmodel",
+    "pk": 16,
+    "fields": {
+        "header": "Создан прототип летающего автомобиля",
+        "content": "Инженеры представили прототип летающего автомобиля, способного вертикально взлетать и приземляться. Ожидается, что технология изменит городскую мобильность.",
+        "created_at": "2025-02-25T17:30:26.455Z",
+        "updated_at": "2025-02-25T17:30:26.455Z"
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 1,
+    "fields": {
+        "link": "https://some-journal.com/random/article",
+        "news": 1
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 2,
+    "fields": {
+        "link": "https://another-journal.com/random/article",
+        "news": 1
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 3,
+    "fields": {
+        "link": "https://science-journal/random/article",
+        "news": 2
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 4,
+    "fields": {
+        "link": "https://not.real.site.com/random/article",
+        "news": 2
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 7,
+    "fields": {
+        "link": "https://some-journal.com/random/article",
+        "news": 1
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 8,
+    "fields": {
+        "link": "https://another-journal.com/random/article",
+        "news": 1
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 9,
+    "fields": {
+        "link": "https://science-journal/random/article",
+        "news": 2
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 10,
+    "fields": {
+        "link": "https://not.real.site.com/random/article",
+        "news": 2
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 17,
+    "fields": {
+        "link": "https://some-journal.com/random/article",
+        "news": 1
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 18,
+    "fields": {
+        "link": "https://another-journal.com/random/article",
+        "news": 1
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 19,
+    "fields": {
+        "link": "https://science-journal/random/article",
+        "news": 2
+    }
+},
+{
+    "model": "news.resourcemodel",
+    "pk": 20,
+    "fields": {
+        "link": "https://not.real.site.com/random/article",
+        "news": 2
     }
 }
 ]
