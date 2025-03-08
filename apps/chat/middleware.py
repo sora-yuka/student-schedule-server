@@ -2,7 +2,6 @@ from channels.middleware import BaseMiddleware
 from rest_framework.exceptions import AuthenticationFailed
 from django.db import close_old_connections
 from .authentication import JWTAuthentication
-from ext.original_jwtauthentication import CustomJWT
 
 class JWTWebsocketMiddleware(BaseMiddleware):
     async def __call__(self, scope, receive, send):
@@ -24,9 +23,7 @@ class JWTWebsocketMiddleware(BaseMiddleware):
                 "close_code": 4000,
             })
         
-        #! Important
         authentication = JWTAuthentication()
-        # authentication = CustomJWT()
         
         try:
             user = await authentication.authenticate_websocket(scope, token)
