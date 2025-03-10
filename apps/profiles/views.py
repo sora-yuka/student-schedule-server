@@ -9,6 +9,9 @@ class ProfilesListAPIView(ListAPIView):
     serializer_class = ProfileSerializer
     queryset = StudentProfileModel.objects.all()
     
+    def get_queryset(self) -> StudentProfileModel:
+        return StudentProfileModel.objects.exclude(owner=self.request.user.id)
+    
     
 class OwnProfileRetrieveAPIView(RetrieveAPIView):
     serializer_class = ProfileSerializer
