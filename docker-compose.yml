@@ -8,6 +8,7 @@ x-server-variables: &server-variables
   DEBUG: ${DEBUG}
   ALLOWED_HOSTS: ${ALLOWED_HOSTS}
   DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+  REDIS_HOST: redis
 
 
 services:
