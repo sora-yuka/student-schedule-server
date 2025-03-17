@@ -6,6 +6,7 @@ from channels.db import database_sync_to_async
 from .models import Room, Message
 from .serializers import MessageSerializer
 
+from apps.account.serializers import UserSerializer
 
 User = get_user_model()
 
@@ -39,7 +40,7 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
         
         await self.channel_layer.group_send(
             self.room_group_name, {
-                "type": "chat_message",
+                "type": "chat.message",
                 "message": message,
             }
         )
@@ -74,6 +75,8 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
     
     async def chat_message(self, event: Dict[str, Any]) -> None:
         message = await self.save_message(content=event["message"])
+        # message = event["message"]
         serializer = MessageSerializer(message)
         
         await self.send(text_data=json.dumps(serializer.data))
+        # await self.send(text_data=json.dumps({"message": message}))

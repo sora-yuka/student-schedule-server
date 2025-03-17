@@ -18,7 +18,7 @@ class ProfileSerializer(serializers.ModelSerializer):
         representation = super().to_representation(instance=instance)
         representation.update({
             "owner": {
-                "id": representation["id"], "email": instance.owner.email, "username": instance.owner.username
+                "id": instance.owner.id, "email": instance.owner.email, "username": instance.owner.username
             },
             "group": {
                 "id": instance.group.id, 
