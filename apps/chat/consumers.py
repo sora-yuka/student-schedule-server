@@ -4,6 +4,7 @@ from django.contrib.auth import get_user_model
 from channels.generic.websocket import AsyncWebsocketConsumer
 from channels.db import database_sync_to_async
 from .models import Room, Message
+from .serializers import MessageSerializer
 
 
 User = get_user_model()
@@ -36,8 +37,6 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
         json_data = json.loads(text_data)
         message = json_data["message"]
         
-        await self.save_message(content=message)
-        
         await self.channel_layer.group_send(
             self.room_group_name, {
                 "type": "chat_message",
@@ -64,17 +63,17 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
             receiver = receiver,
             content = content,
         )
-            
+        
+        return new_message
                 
     async def disconnect(self, close_code: int) -> None:
         self.channel_layer.group_discard(
             self.room_group_name,
             self.channel_name,
         )
-        
+    
     async def chat_message(self, event: Dict[str, Any]) -> None:
-        message = event["message"]
+        message = await self.save_message(content=event["message"])
+        serializer = MessageSerializer(message)
         
-        await self.send(text_data=json.dumps({
-            "message": message
-        }))
+        await self.send(text_data=json.dumps(serializer.data))

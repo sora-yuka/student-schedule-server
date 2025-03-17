@@ -32,7 +32,7 @@ class JWTAuthentication(BaseAuthentication):
         try:
             payload = jwt.decode(jwt=token, key=settings.SECRET_KEY, algorithms=["HS256"])
             self.verify_token(payload=payload)
-            
-            return User.objects.get(id=payload["user_id"])
+            user = User.objects.get(id=payload["user_id"])
+            return user
         except (InvalidTokenError, ExpiredSignatureError, User.DoesNotExist):
             raise AuthenticationFailed("Error occured while validating token")
