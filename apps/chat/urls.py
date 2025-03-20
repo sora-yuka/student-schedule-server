@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import MessageListAPIView
+from .views import DirectRetrieveAPIView
 
 
 urlpatterns = [
-    path("messages/", MessageListAPIView.as_view()),
+    path("direct/<int:pk>/", DirectRetrieveAPIView.as_view()),
 ]

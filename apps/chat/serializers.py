@@ -28,6 +28,7 @@ class MessageSerializer(serializers.ModelSerializer):
             "time": local_timestamp.strftime("%H:%M"),
             "sender": instance.sender.email,
             "receiver": instance.receiver.email,
+            "room": instance.room.room,
         })
         
         return representation

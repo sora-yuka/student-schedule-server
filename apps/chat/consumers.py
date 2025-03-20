@@ -27,8 +27,6 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
                 )
                 
                 await self.accept()
-                
-                # Additional data to extract...
             
             except (KeyError, ValueError) as err:
                 print("Error during connection: ", err)
@@ -36,12 +34,16 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
                 
     async def receive(self, text_data=None, bytes_data=None) -> None:
         json_data = json.loads(text_data)
-        message = json_data["message"]
+        
+        message = await self.save_message(content=json_data["message"])
+        
+        serializer = MessageSerializer(message)
+        serialized_message = serializer.data
         
         await self.channel_layer.group_send(
             self.room_group_name, {
                 "type": "chat.message",
-                "message": message,
+                "message": serialized_message, # providing serialized message
             }
         )
     
@@ -55,7 +57,6 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
             room = Room.objects.get(room=self.room_group_name)
             
         except Room.DoesNotExist as err:
-            print("Error occured while saving message into database", err)
             room = Room.objects.create(room=self.room_group_name)
             
         new_message = Message.objects.create(
@@ -74,9 +75,4 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
         )
     
     async def chat_message(self, event: Dict[str, Any]) -> None:
-        message = await self.save_message(content=event["message"])
-        # message = event["message"]
-        serializer = MessageSerializer(message)
-        
-        await self.send(text_data=json.dumps(serializer.data))
-        # await self.send(text_data=json.dumps({"message": message}))
+        await self.send(text_data=json.dumps(event["message"]))
