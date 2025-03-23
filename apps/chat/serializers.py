@@ -1,4 +1,4 @@
-from typing import Dict, Any, Optional
+from typing import Dict, Any
 from django.utils import timezone
 from rest_framework import serializers
 
@@ -13,6 +13,13 @@ class RoomSerializer(serializers.ModelSerializer):
         
         
 class MessageSerializer(serializers.ModelSerializer):
+    current_user = serializers.SerializerMethodField("_user")
+    
+    def _user(self, obj: Message):
+        request = self.context.get("request", None)
+        
+        if request:
+            return request.user.email
     
     class Meta:
         model = Message

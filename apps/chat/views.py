@@ -18,8 +18,7 @@ class DirectRetrieveAPIView(ListAPIView):
         user_id = self.request.user.id
 
         queryset = queryset.filter(
-            Q(receiver_id=lookup_field) | Q(sender_id=lookup_field) &
-            Q(receiver_id=user_id) | Q(sender_id=user_id)
+            Q(receiver_id=lookup_field) & Q(sender_id=user_id) | Q(receiver_id=user_id) & Q(sender_id=lookup_field)
         )
         
         return queryset

@@ -27,6 +27,8 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
                 )
                 
                 await self.accept()
+                
+                await self.send("Connected")
             
             except (KeyError, ValueError) as err:
                 print("Error during connection: ", err)
@@ -39,6 +41,7 @@ class PersonalChatConsumer(AsyncWebsocketConsumer):
         
         serializer = MessageSerializer(message)
         serialized_message = serializer.data
+        serialized_message["current_user"] = self.scope["user"].email
         
         await self.channel_layer.group_send(
             self.room_group_name, {
