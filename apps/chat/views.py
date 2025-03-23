@@ -8,7 +8,7 @@ from .serializers import RoomSerializer, MessageSerializer
 # Create your views here.
 
 
-class DirectRetrieveAPIView(ListAPIView):
+class DirectListAPIView(ListAPIView):
     queryset = Message.objects.all()
     serializer_class = MessageSerializer
     
