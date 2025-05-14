@@ -15,8 +15,8 @@ static:
 	./manage.py collectstatic
 
 build:
-	docker-compose down
+	docker compose down
 	@if [ ! -z "$(shell docker images -q student-schedule-web)" ]; then \
         docker rmi student-schedule-web; \
     fi
-	docker-compose up --build
+	docker compose up --build
