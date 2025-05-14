@@ -3,11 +3,11 @@
     "model": "admin.logentry",
     "pk": 1,
     "fields": {
-        "action_time": "2025-02-18T13:12:40.766Z",
+        "action_time": "2025-05-14T10:14:47.743Z",
         "user": 1,
         "content_type": 6,
         "object_id": "2",
-        "object_repr": "Copa - user@mail.com",
+        "object_repr": "Сабыркулов Нурмухаммед - user@mail.com",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -16,20 +16,7 @@
     "model": "admin.logentry",
     "pk": 2,
     "fields": {
-        "action_time": "2025-02-18T13:12:42.591Z",
-        "user": 1,
-        "content_type": 6,
-        "object_id": "2",
-        "object_repr": "Copa - user@mail.com",
-        "action_flag": 2,
-        "change_message": "[]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 3,
-    "fields": {
-        "action_time": "2025-02-18T13:13:07.194Z",
+        "action_time": "2025-05-14T10:17:18.195Z",
         "user": 1,
         "content_type": 11,
         "object_id": "1",
@@ -40,26 +27,39 @@
 },
 {
     "model": "admin.logentry",
-    "pk": 4,
+    "pk": 3,
     "fields": {
-        "action_time": "2025-02-18T13:13:13.316Z",
+        "action_time": "2025-05-14T10:17:41.838Z",
         "user": 1,
         "content_type": 12,
         "object_id": "1",
-        "object_repr": "ИЭТ | ИСТ",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникации",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
 },
 {
     "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-05-14T10:17:55.760Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Specialty name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
     "pk": 5,
     "fields": {
-        "action_time": "2025-02-18T13:13:30.601Z",
+        "action_time": "2025-05-14T10:17:56.885Z",
         "user": 1,
         "content_type": 13,
         "object_id": "1",
-        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -68,11 +68,11 @@
     "model": "admin.logentry",
     "pk": 6,
     "fields": {
-        "action_time": "2025-02-18T13:13:32.996Z",
+        "action_time": "2025-05-14T10:30:02.020Z",
         "user": 1,
         "content_type": 10,
         "object_id": "1",
-        "object_repr": "Copa - user@mail.com | 2nd course | ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "object_repr": "Сабыркулов Нурмухаммед - user@mail.com | 2nd course | ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -81,234 +81,195 @@
     "model": "admin.logentry",
     "pk": 7,
     "fields": {
-        "action_time": "2025-02-18T13:28:40.430Z",
+        "action_time": "2025-05-14T10:38:28.238Z",
         "user": 1,
         "content_type": 7,
         "object_id": "1",
-        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Monday",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Monday | Spring",
         "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u0432\\u0435\\u0431-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0410\\u043c\\u0430\\u043d\\u043a\\u0443\\u043b\\u043e\\u0432\\u0430 \\u041d.\\u0410. | 1 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 1/348\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438 \\u0431\\u0438\\u0437\\u0435\\u0441 \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 3/110\"}}]"
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041c\\u0430\\u043d\\u0430\\u0441\\u043e\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u0435 | \\u0418\\u0441\\u043a\\u0435\\u043d\\u0434\\u0435\\u0440\\u043e\\u0432\\u0430 \\u0410.\\u041a. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.2/625\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0418\\u0441\\u0442\\u043e\\u0440\\u0438\\u044f \\u041a\\u044b\\u0440\\u0433\\u044b\\u0437\\u0441\\u0442\\u0430\\u043d\\u0430 | \\u041a\\u0443\\u043d\\u0442\\u0443\\u0431\\u0430\\u0435\\u0432\\u0430 \\u0410.\\u0410. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.2/616\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041c\\u0430\\u043d\\u0430\\u0441\\u043e\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u0435 | \\u0418\\u0441\\u043a\\u0435\\u043d\\u0434\\u0435\\u0440\\u043e\\u0432\\u0430 \\u0410.\\u041a. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.2/616\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0424\\u0438\\u0437\\u0438\\u0447\\u0435\\u0441\\u043a\\u0430\\u044f \\u043a\\u0443\\u043b\\u044c\\u0442\\u0443\\u0440\\u0430 \\u0438 \\u0441\\u043f\\u043e\\u0440\\u0442 | \\u0417\\u0430\\u0432. \\u043a\\u0430\\u0444\\u0435\\u0434\\u0440\\u043e\\u0439 .. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.\\u0421\\u0442\\u0430\\u0434\\u0438\\u043e\\u043d\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0418\\u0441\\u0442\\u043e\\u0440\\u0438\\u044f \\u041a\\u044b\\u0440\\u0433\\u044b\\u0437\\u0441\\u0442\\u0430\\u043d\\u0430 | \\u041a\\u0443\\u043d\\u0442\\u0443\\u0431\\u0430\\u0435\\u0432\\u0430 \\u0410.\\u0410. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.2/514\"}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 8,
     "fields": {
-        "action_time": "2025-02-18T13:31:08.305Z",
+        "action_time": "2025-05-14T10:38:40.080Z",
         "user": 1,
-        "content_type": 7,
-        "object_id": "2",
-        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Friday | Autumn",
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Spring semester | FROM '2025-02-23' TO '2025-05-28' | ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21",
         "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441 \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 3/217\"}}]"
+        "change_message": "[{\"added\": {}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 9,
     "fields": {
-        "action_time": "2025-02-18T13:31:30.702Z",
+        "action_time": "2025-05-14T10:40:03.630Z",
         "user": 1,
-        "content_type": 9,
-        "object_id": "1",
-        "object_repr": "Autumn semester | FROM '2025-01-20' TO '2025-05-23' | ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Tuesday | Spring",
         "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u0432\\u0435\\u0431-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 (BackEnd) 2 | \\u0410\\u043c\\u0430\\u043d\\u043a\\u0443\\u043b\\u043e\\u0432\\u0430 \\u041d.\\u0410. | 1-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.1/348\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.3/110\"}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 10,
     "fields": {
-        "action_time": "2025-02-24T18:33:51.905Z",
+        "action_time": "2025-05-14T10:40:33.561Z",
         "user": 1,
-        "content_type": 7,
+        "content_type": 9,
         "object_id": "1",
-        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Monday | Autumn",
+        "object_repr": "Spring semester | FROM '2025-02-23' TO '2025-05-28' | ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21",
         "action_flag": 2,
-        "change_message": "[{\"changed\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u0432\\u0435\\u0431-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0410\\u043c\\u0430\\u043d\\u043a\\u0443\\u043b\\u043e\\u0432\\u0430 \\u041d.\\u0410. | 1 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 1/348\", \"fields\": [\"Start period\", \"End period\"]}}, {\"changed\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438 \\u0431\\u0438\\u0437\\u0435\\u0441 \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 3/110\", \"fields\": [\"Start period\", \"End period\"]}}]"
+        "change_message": "[{\"changed\": {\"fields\": [\"Schedules\"]}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 11,
     "fields": {
-        "action_time": "2025-02-24T18:33:54.840Z",
+        "action_time": "2025-05-14T10:42:29.449Z",
         "user": 1,
         "content_type": 7,
-        "object_id": "1",
-        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Monday | Autumn",
-        "action_flag": 2,
-        "change_message": "[]"
+        "object_id": "3",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Wednesday | Spring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 1-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.1/348\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041e\\u0431\\u044a\\u0435\\u043a\\u0442\\u043d\\u043e-\\u043e\\u0440\\u0438\\u0435\\u043d\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u043d\\u043e\\u0435 \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 1 | \\u041a\\u043e\\u0439\\u0447\\u0443\\u043c\\u0430\\u043d\\u043e\\u0432\\u0430 \\u0416. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.2/607\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0424\\u0438\\u0437\\u0438\\u0447\\u0435\\u0441\\u043a\\u0430\\u044f \\u043a\\u0443\\u043b\\u044c\\u0442\\u0443\\u0440\\u0430 \\u0438 \\u0441\\u043f\\u043e\\u0440\\u0442 | \\u0417\\u0430\\u0432. \\u043a\\u0430\\u0444\\u0435\\u0434\\u0440\\u043e\\u0439 | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.\\u0421\\u0442\\u0430\\u0434\\u0438\\u043e\\u043d\"}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 12,
     "fields": {
-        "action_time": "2025-02-24T18:34:16.390Z",
+        "action_time": "2025-05-14T10:43:41.765Z",
         "user": 1,
         "content_type": 7,
-        "object_id": "2",
-        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Friday | Autumn",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441 \\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3 \\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 3/217\", \"fields\": [\"Start period\", \"End period\"]}}]"
+        "object_id": "4",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Thursday | Spring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041e\\u0431\\u044a\\u0435\\u043a\\u0442\\u043d\\u043e-\\u043e\\u0440\\u0438\\u0435\\u043d\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u043d\\u043e\\u0435 \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 1 | \\u0422\\u043e\\u0439\\u0431\\u0430\\u0435\\u0432\\u0430 \\u0416.\\u0414. | 5-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.5/315\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u0432\\u0435\\u0431-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 (BackEnd) 2 | \\u0410\\u043f\\u0438\\u043b\\u043e\\u0432\\u0430 \\u0422.\\u0410. | 5-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.5/317\"}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 13,
     "fields": {
-        "action_time": "2025-02-24T19:42:21.277Z",
+        "action_time": "2025-05-14T10:45:18.529Z",
         "user": 1,
         "content_type": 7,
-        "object_id": "1",
-        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Monday | Autumn",
-        "action_flag": 2,
-        "change_message": "[]"
+        "object_id": "5",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Friday | Spring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.3/217\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041e\\u0441\\u043d\\u043e\\u0432\\u044b \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u043e\\u043d\\u043d\\u043e\\u0439 \\u0431\\u0435\\u0437\\u043e\\u043f\\u0430\\u0441\\u043d\\u043e\\u0441\\u0442\\u0438 | \\u0421\\u0430\\u0437\\u0431\\u0430\\u043a\\u043e\\u0432 \\u0417.\\u0421. | 5-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.5/311\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041e\\u0441\\u043d\\u043e\\u0432\\u044b \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u043e\\u043d\\u043d\\u043e\\u0439 \\u0431\\u0435\\u0437\\u043e\\u043f\\u0430\\u0441\\u043d\\u043e\\u0441\\u0442\\u0438 | \\u0421\\u0430\\u0437\\u0431\\u0430\\u043a\\u043e\\u0432 \\u0417.\\u0421. | 5-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.5/315\"}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 14,
     "fields": {
-        "action_time": "2025-02-25T16:03:43.537Z",
+        "action_time": "2025-05-14T10:45:32.979Z",
         "user": 1,
-        "content_type": 14,
+        "content_type": 9,
         "object_id": "1",
-        "object_repr": "В Амазонке обнаружен новый вид светящихся грибов",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"resource model\", \"object\": \"\\u0412 \\u0410\\u043c\\u0430\\u0437\\u043e\\u043d\\u043a\\u0435 \\u043e\\u0431\\u043d\\u0430\\u0440\\u0443\\u0436\\u0435\\u043d \\u043d\\u043e\\u0432\\u044b\\u0439 \\u0432\\u0438\\u0434 \\u0441\\u0432\\u0435\\u0442\\u044f\\u0449\\u0438\\u0445\\u0441\\u044f \\u0433\\u0440\\u0438\\u0431\\u043e\\u0432 | https://some-journal.com/random/article\"}}, {\"added\": {\"name\": \"resource model\", \"object\": \"\\u0412 \\u0410\\u043c\\u0430\\u0437\\u043e\\u043d\\u043a\\u0435 \\u043e\\u0431\\u043d\\u0430\\u0440\\u0443\\u0436\\u0435\\u043d \\u043d\\u043e\\u0432\\u044b\\u0439 \\u0432\\u0438\\u0434 \\u0441\\u0432\\u0435\\u0442\\u044f\\u0449\\u0438\\u0445\\u0441\\u044f \\u0433\\u0440\\u0438\\u0431\\u043e\\u0432 | https://another-journal.com/random/article\"}}]"
+        "object_repr": "Spring semester | FROM '2025-02-23' TO '2025-05-28' | ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Schedules\"]}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 15,
     "fields": {
-        "action_time": "2025-02-25T16:08:48.656Z",
+        "action_time": "2025-05-14T10:52:39.113Z",
         "user": 1,
-        "content_type": 14,
-        "object_id": "2",
-        "object_repr": "Создан биопластик из отходов морепродуктов",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"resource model\", \"object\": \"\\u0421\\u043e\\u0437\\u0434\\u0430\\u043d \\u0431\\u0438\\u043e\\u043f\\u043b\\u0430\\u0441\\u0442\\u0438\\u043a \\u0438\\u0437 \\u043e\\u0442\\u0445\\u043e\\u0434\\u043e\\u0432 \\u043c\\u043e\\u0440\\u0435\\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u043e\\u0432 | https://science-journal/random/article\"}}, {\"added\": {\"name\": \"resource model\", \"object\": \"\\u0421\\u043e\\u0437\\u0434\\u0430\\u043d \\u0431\\u0438\\u043e\\u043f\\u043b\\u0430\\u0441\\u0442\\u0438\\u043a \\u0438\\u0437 \\u043e\\u0442\\u0445\\u043e\\u0434\\u043e\\u0432 \\u043c\\u043e\\u0440\\u0435\\u043f\\u0440\\u043e\\u0434\\u0443\\u043a\\u0442\\u043e\\u0432 | https://not.real.site.com/random/article\"}}]"
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Monday | Spring",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"lesson model\", \"object\": \"o | o | o\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"o | o | o\"}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 16,
     "fields": {
-        "action_time": "2025-02-25T17:29:23.799Z",
+        "action_time": "2025-05-14T11:04:50.468Z",
         "user": 1,
-        "content_type": 14,
-        "object_id": "3",
-        "object_repr": "Искусственный интеллект помог обнаружить новую экзопланету",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Monday | Spring",
+        "action_flag": 2,
+        "change_message": "[{\"deleted\": {\"name\": \"lesson model\", \"object\": \"o | o | o\"}}, {\"deleted\": {\"name\": \"lesson model\", \"object\": \"o | o | o\"}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 17,
     "fields": {
-        "action_time": "2025-02-25T17:29:41.514Z",
+        "action_time": "2025-05-14T11:08:09.286Z",
         "user": 1,
-        "content_type": 14,
-        "object_id": "4",
-        "object_repr": "Разработан съедобный датчик для контроля свежести продуктов",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 18,
-    "fields": {
-        "action_time": "2025-02-25T17:30:02.409Z",
-        "user": 1,
-        "content_type": 14,
+        "content_type": 7,
         "object_id": "5",
-        "object_repr": "В Антарктиде обнаружены следы древнего леса",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 19,
-    "fields": {
-        "action_time": "2025-02-25T17:30:26.456Z",
-        "user": 1,
-        "content_type": 14,
-        "object_id": "6",
-        "object_repr": "Создан прототип летающего автомобиля",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 20,
-    "fields": {
-        "action_time": "2025-03-06T15:23:48.322Z",
-        "user": 1,
-        "content_type": 6,
-        "object_id": "3",
-        "object_repr": "user - usr@bn.com",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 21,
-    "fields": {
-        "action_time": "2025-03-06T15:23:49.843Z",
-        "user": 1,
-        "content_type": 6,
-        "object_id": "3",
-        "object_repr": "user - usr@bn.com",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Friday | Spring",
         "action_flag": 2,
         "change_message": "[]"
     }
 },
 {
     "model": "admin.logentry",
-    "pk": 22,
+    "pk": 18,
     "fields": {
-        "action_time": "2025-03-06T15:24:00.095Z",
+        "action_time": "2025-05-14T11:08:20.126Z",
         "user": 1,
-        "content_type": 10,
-        "object_id": "2",
-        "object_repr": "user - usr@bn.com | 1st course | ИЭТ | ИСТ | ИСТ(б) 1-23",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Monday | Spring",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 },
 {
     "model": "admin.logentry",
-    "pk": 23,
+    "pk": 19,
     "fields": {
-        "action_time": "2025-03-06T17:01:48.706Z",
+        "action_time": "2025-05-14T11:08:28.268Z",
         "user": 1,
-        "content_type": 10,
+        "content_type": 7,
         "object_id": "2",
-        "object_repr": "user - usr@bn.com | 1st course | ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Tuesday | Spring",
         "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Pfp\"]}}]"
+        "change_message": "[{\"changed\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.3/110\", \"fields\": [\"Lesson type\"]}}]"
     }
 },
 {
     "model": "admin.logentry",
-    "pk": 56,
+    "pk": 20,
     "fields": {
-        "action_time": "2025-03-06T17:04:32.321Z",
+        "action_time": "2025-05-14T11:08:45.754Z",
         "user": 1,
-        "content_type": 10,
-        "object_id": "2",
-        "object_repr": "user - usr@bn.com | 1st course | ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Wednesday | Spring",
         "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Pfp\"]}}]"
+        "change_message": "[{\"changed\": {\"name\": \"lesson model\", \"object\": \"\\u041e\\u0431\\u044a\\u0435\\u043a\\u0442\\u043d\\u043e-\\u043e\\u0440\\u0438\\u0435\\u043d\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u043d\\u043e\\u0435 \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 1 | \\u041a\\u043e\\u0439\\u0447\\u0443\\u043c\\u0430\\u043d\\u043e\\u0432\\u0430 \\u0416. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.2/607\", \"fields\": [\"Lesson type\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2025-05-14T11:08:57.374Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "ИЭТ | Информационные системы и технологии в телекоммуникациях | ИСТ(б)1-21 | Friday | Spring",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c.\\u0418. | 3-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.3/217\", \"fields\": [\"Lesson type\"]}}]"
     }
 },
 {
@@ -1061,50 +1022,26 @@
 },
 {
     "model": "sessions.session",
-    "pk": "2lrterpwgbtfsrfvzyrt6wdc6yxxtedx",
+    "pk": "wxdl7igv1zff483pgo05try1jl4vcaz1",
     "fields": {
-        "session_data": ".eJxVjEEOwiAQAP-yZ0NYSin06N03kAUWqRpISnsy_t006UGvM5N5g6d9K37vvPolwQwIl18WKD65HiI9qN6biK1u6xLEkYjTdnFriV_Xs_0bFOoFZnAqZHaBrUEmlSd2iKgzB0lmNMrmSDgoyYMK2klj5CSNs4O1mnMaE8LnC-jzN3o:1tkNOj:_LZXxexc4WlXwluLn_NULabuY3kOSGjNLTJaB1NVaRw",
-        "expire_date": "2025-03-04T13:12:25.476Z"
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "3he91ynqf3suf0jn3asjvujlazni7hm3",
-    "fields": {
-        "session_data": ".eJxVjEEOwiAQAP-yZ0NYSin06N03kAUWqRpISnsy_t006UGvM5N5g6d9K37vvPolwQwIl18WKD65HiI9qN6biK1u6xLEkYjTdnFriV_Xs_0bFOoFZnAqZHaBrUEmlSd2iKgzB0lmNMrmSDgoyYMK2klj5CSNs4O1mnMaE8LnC-jzN3o:1tmdDE:dmp63Uv37Id3mQd6xP_Tw4cy1TtFxLD4CIGfKWXVwFk",
-        "expire_date": "2025-03-10T18:29:52.028Z"
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "4f4ls2vjgrv07k7g2plsa0f83w70rbz9",
-    "fields": {
-        "session_data": ".eJxVjEEOwiAQAP-yZ0NYSin06N03kAUWqRpISnsy_t006UGvM5N5g6d9K37vvPolwQwIl18WKD65HiI9qN6biK1u6xLEkYjTdnFriV_Xs_0bFOoFZnAqZHaBrUEmlSd2iKgzB0lmNMrmSDgoyYMK2klj5CSNs4O1mnMaE8LnC-jzN3o:1tmeLJ:392xbPFtVQisDNZt9Kdpk4j4OPaZPvyyYqTOyj985K4",
-        "expire_date": "2025-03-10T19:42:17.918Z"
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "l7ylzd1vzjrekdogniwqwik8qbsx3asf",
-    "fields": {
-        "session_data": ".eJxVjEEOwiAQAP-yZ0NYSin06N03kAUWqRpISnsy_t006UGvM5N5g6d9K37vvPolwQwIl18WKD65HiI9qN6biK1u6xLEkYjTdnFriV_Xs_0bFOoFZnAqZHaBrUEmlSd2iKgzB0lmNMrmSDgoyYMK2klj5CSNs4O1mnMaE8LnC-jzN3o:1tqyIF:4wU6jixpabPFFqdvxzBFHy1UPTKrLXXAcckDH1x5Wt0",
-        "expire_date": "2025-03-22T17:48:59.646Z"
+        "session_data": ".eJxVjLsOwjAMAP_FM4ritEkfIzvfUNmxQwsokZp2Qvw7qtQB1rvTvWGifZunveo6LQIjIFx-GVN8aj6EPCjfi4klb-vC5kjMaau5FdHX9Wz_BjPVGUawneXEDcYQqBNvqQmcRDWgY4wS0aPrG1LhrpXBD-Kd9MkNVm1yaFv4fAH2OzgY:1uF97w:njHmofMbwTWNzkbwCUj6TIvuF76cWCaQiso5euhdBxc",
+        "expire_date": "2025-05-28T10:14:16.887Z"
     }
 },
 {
     "model": "account.customuser",
     "pk": 1,
     "fields": {
-        "last_login": "2025-03-08T17:48:59.641Z",
+        "last_login": "2025-05-14T10:14:16.880Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
         "is_staff": true,
         "is_active": true,
-        "date_joined": "2025-02-18T13:12:10.644Z",
+        "date_joined": "2025-05-14T10:14:06.058Z",
         "username": "admin | admin@mail.com",
         "email": "admin@mail.com",
-        "password": "pbkdf2_sha256$870000$cbKvxpKt3RaZv1n5rDpgHy$DJmye9xedCvBAQKIPJx4O2yEDyji/5DcjV7xsuL/4N8=",
+        "password": "pbkdf2_sha256$870000$N4dR8rYNrmXrWgCgT0gFhT$wLe4kdcVhiugN1xjE4tTpNgaYZRFfCdUogHmn1WvyHY=",
         "groups": [],
         "user_permissions": []
     }
@@ -1119,28 +1056,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-02-18T13:12:40.283Z",
-        "username": "Copa",
+        "date_joined": "2025-05-14T10:14:47.259Z",
+        "username": "Сабыркулов Нурмухаммед",
         "email": "user@mail.com",
-        "password": "pbkdf2_sha256$870000$ueKiKM4U0iUZXC1lI36MOI$H9wD7DGc5jNrDRX1rfk62VWr6AX/vAOZTob6c6Q3e7M=",
-        "groups": [],
-        "user_permissions": []
-    }
-},
-{
-    "model": "account.customuser",
-    "pk": 3,
-    "fields": {
-        "last_login": null,
-        "is_superuser": false,
-        "first_name": "",
-        "last_name": "",
-        "is_staff": false,
-        "is_active": true,
-        "date_joined": "2025-03-06T15:23:47.808Z",
-        "username": "user",
-        "email": "usr@bn.com",
-        "password": "pbkdf2_sha256$870000$XpwuDQBFA4njRSaHs0edVP$1B6nviaVmbDupTSS51CBImC7HNBDT6OmsMfyH+C52JM=",
+        "password": "pbkdf2_sha256$870000$3HZd1g5lQ7QDJRj5pImCom$LnmP/RQYkqurf48FTFSuPd+5U9NhH2NwP5Cge7qA9EM=",
         "groups": [],
         "user_permissions": []
     }
@@ -1151,16 +1070,43 @@
     "fields": {
         "week_day": "Monday",
         "group": 1,
-        "semester": "Autumn"
+        "semester": "Spring"
     }
 },
 {
     "model": "schedule.schedulemodel",
     "pk": 2,
     "fields": {
+        "week_day": "Tuesday",
+        "group": 1,
+        "semester": "Spring"
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 3,
+    "fields": {
+        "week_day": "Wednesday",
+        "group": 1,
+        "semester": "Spring"
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 4,
+    "fields": {
+        "week_day": "Thursday",
+        "group": 1,
+        "semester": "Spring"
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 5,
+    "fields": {
         "week_day": "Friday",
         "group": 1,
-        "semester": "Autumn"
+        "semester": "Spring"
     }
 },
 {
@@ -1170,12 +1116,12 @@
         "schedule": 1,
         "start_period": "10:00",
         "end_period": "11:20",
-        "week_variance": null,
-        "lesson_type": "Practice",
-        "class_room": "1 корпус, ауд. 1/348",
-        "lesson_name": "Проектирование и разработка веб-приложений",
-        "professor": "Аманкулова Н.А.",
-        "number_of_weeks": "1-16"
+        "week_variance": "Числ.",
+        "lesson_type": "Практика",
+        "class_room": "2-корпус, ауд.2/625",
+        "lesson_name": "Манасоведение",
+        "professor": "Искендерова А.К.",
+        "number_of_weeks": "1-7"
     }
 },
 {
@@ -1185,11 +1131,11 @@
         "schedule": 1,
         "start_period": "11:30",
         "end_period": "12:50",
-        "week_variance": "Even",
-        "lesson_type": "Practice",
-        "class_room": "3 корпус, ауд. 3/110",
-        "lesson_name": "Программировани бизес приложений",
-        "professor": "Раззаков М.И.",
+        "week_variance": "Числ.",
+        "lesson_type": "Лекция",
+        "class_room": "2-корпус, ауд.2/616",
+        "lesson_name": "История Кыргызстана",
+        "professor": "Кунтубаева А.А.",
         "number_of_weeks": "1-16"
     }
 },
@@ -1197,14 +1143,194 @@
     "model": "schedule.lessonmodel",
     "pk": 3,
     "fields": {
+        "schedule": 1,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": "Знам.",
+        "lesson_type": "Лекция",
+        "class_room": "2-корпус, ауд.2/616",
+        "lesson_name": "Манасоведение",
+        "professor": "Искендерова А.К.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 4,
+    "fields": {
+        "schedule": 1,
+        "start_period": "13:00",
+        "end_period": "14:20",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "2-корпус, ауд.Стадион",
+        "lesson_name": "Физическая культура и спорт",
+        "professor": "Зав. кафедрой ..",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 5,
+    "fields": {
+        "schedule": 1,
+        "start_period": "15:00",
+        "end_period": "16:20",
+        "week_variance": "Числ.",
+        "lesson_type": "Практика",
+        "class_room": "2-корпус, ауд.2/514",
+        "lesson_name": "История Кыргызстана",
+        "professor": "Кунтубаева А.А.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 6,
+    "fields": {
+        "schedule": 2,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": null,
+        "lesson_type": "Лекция",
+        "class_room": "1-корпус, ауд.1/348",
+        "lesson_name": "Проектирование и разработка веб-приложений (BackEnd) 2",
+        "professor": "Аманкулова Н.А.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 7,
+    "fields": {
         "schedule": 2,
         "start_period": "11:30",
         "end_period": "12:50",
-        "week_variance": null,
-        "lesson_type": "Practice",
-        "class_room": "3 корпус, ауд. 3/217",
-        "lesson_name": "Программирование бизнес приложений",
+        "week_variance": "Знам.",
+        "lesson_type": "Лабораторная",
+        "class_room": "3-корпус, ауд.3/110",
+        "lesson_name": "Программирование бизнес-приложений",
         "professor": "Раззаков М.И.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 8,
+    "fields": {
+        "schedule": 3,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": "Числ.",
+        "lesson_type": "Лекция",
+        "class_room": "1-корпус, ауд.1/348",
+        "lesson_name": "Программирование бизнес-приложений",
+        "professor": "Раззаков М.И.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 9,
+    "fields": {
+        "schedule": 3,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": null,
+        "lesson_type": "Лекция",
+        "class_room": "2-корпус, ауд.2/607",
+        "lesson_name": "Объектно-ориентированное программирование 1",
+        "professor": "Койчуманова Ж.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 10,
+    "fields": {
+        "schedule": 3,
+        "start_period": "13:00",
+        "end_period": "14:20",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "2-корпус, ауд.Стадион",
+        "lesson_name": "Физическая культура и спорт",
+        "professor": "Зав. кафедрой",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 11,
+    "fields": {
+        "schedule": 4,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "5-корпус, ауд.5/315",
+        "lesson_name": "Объектно-ориентированное программирование 1",
+        "professor": "Тойбаева Ж.Д.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 12,
+    "fields": {
+        "schedule": 4,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "5-корпус, ауд.5/317",
+        "lesson_name": "Проектирование и разработка веб-приложений (BackEnd) 2",
+        "professor": "Апилова Т.А.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 13,
+    "fields": {
+        "schedule": 5,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": null,
+        "lesson_type": "Лабораторная",
+        "class_room": "3-корпус, ауд.3/217",
+        "lesson_name": "Программирование бизнес-приложений",
+        "professor": "Раззаков М.И.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 14,
+    "fields": {
+        "schedule": 5,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": null,
+        "lesson_type": "Лекция",
+        "class_room": "5-корпус, ауд.5/311",
+        "lesson_name": "Основы информационной безопасности",
+        "professor": "Сазбаков З.С.",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 15,
+    "fields": {
+        "schedule": 5,
+        "start_period": "13:00",
+        "end_period": "14:20",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "5-корпус, ауд.5/315",
+        "lesson_name": "Основы информационной безопасности",
+        "professor": "Сазбаков З.С.",
         "number_of_weeks": "1-16"
     }
 },
@@ -1212,14 +1338,17 @@
     "model": "schedule.semesterschedulemodel",
     "pk": 1,
     "fields": {
-        "onset": "2025-01-20",
-        "end": "2025-05-23",
-        "semester": "Autumn",
+        "onset": "2025-02-23",
+        "end": "2025-05-28",
+        "semester": "Spring",
         "group": 1,
         "course": "2nd course",
         "schedules": [
             1,
-            2
+            2,
+            3,
+            4,
+            5
         ]
     }
 },
@@ -1228,18 +1357,8 @@
     "pk": 1,
     "fields": {
         "owner": 2,
-        "pfp": "uploads/bdaf6d8fe7871aa0a0fdf89f0587fd69.jpg",
+        "pfp": "uploads/3cc89acf-13ea-44f1-9274-bfa8e208f165.jpg",
         "course": "2nd course",
-        "group": 1
-    }
-},
-{
-    "model": "profiles.studentprofilemodel",
-    "pk": 2,
-    "fields": {
-        "owner": 3,
-        "pfp": "uploads/fbe68fce4021096d8dfbe2403385ab65.jpg",
-        "course": "1st course",
         "group": 1
     }
 },
@@ -1255,7 +1374,7 @@
     "pk": 1,
     "fields": {
         "faculty": 1,
-        "specialty_name": "ИСТ"
+        "specialty_name": "Информационные системы и технологии в телекоммуникациях"
     }
 },
 {
@@ -1264,224 +1383,8 @@
     "fields": {
         "faculty": 1,
         "specialty": 1,
-        "group_name": "ИСТ(б) 1-23",
-        "created_at": "2025-02-18T13:13:30.599Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 1,
-    "fields": {
-        "header": "В Амазонке обнаружен новый вид светящихся грибов",
-        "content": "Ученые открыли в тропических лесах Амазонки новый вид грибов, излучающих яркое зеленое свечение. Грибы, названные \"Mycеna luxaeterna\", растут на гнилой древесине и светятся ночью, привлекая насекомых. Это открытие подчеркивает богатство биоразнообразия Амазонки.",
-        "created_at": "2025-02-25T16:03:43.532Z",
-        "updated_at": "2025-02-25T16:03:43.532Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 2,
-    "fields": {
-        "header": "Создан биопластик из отходов морепродуктов",
-        "content": "Ученые разработали биоразлагаемый пластик из хитина, содержащегося в панцирях ракообразных. Новый материал, \"ChitoPlast\", полностью разлагается и может заменить обычный пластик.",
-        "created_at": "2025-02-25T16:08:48.655Z",
-        "updated_at": "2025-02-25T16:08:48.655Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 3,
-    "fields": {
-        "header": "Искусственный интеллект помог обнаружить новую экзопланету",
-        "content": "Используя алгоритмы ИИ, астрономы обнаружили экзопланету, вращающуюся вокруг звезды, похожей на Солнце. Планета потенциально может поддерживать жизнь.",
-        "created_at": "2025-02-25T17:29:23.799Z",
-        "updated_at": "2025-02-25T17:29:23.799Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 4,
-    "fields": {
-        "header": "Разработан съедобный датчик для контроля свежести продуктов",
-        "content": "Ученые создали съедобный датчик, который меняет цвет, указывая на степень свежести продуктов. Датчик может сократить пищевые отходы.",
-        "created_at": "2025-02-25T17:29:41.513Z",
-        "updated_at": "2025-02-25T17:29:41.513Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 5,
-    "fields": {
-        "header": "В Антарктиде обнаружены следы древнего леса",
-        "content": "Геологи обнаружили окаменелые остатки древнего леса, существовавшего в Антарктиде миллионы лет назад. Это открытие проливает свет на климат прошлого.",
-        "created_at": "2025-02-25T17:30:02.408Z",
-        "updated_at": "2025-02-25T17:30:02.408Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 6,
-    "fields": {
-        "header": "Создан прототип летающего автомобиля",
-        "content": "Инженеры представили прототип летающего автомобиля, способного вертикально взлетать и приземляться. Ожидается, что технология изменит городскую мобильность.",
-        "created_at": "2025-02-25T17:30:26.455Z",
-        "updated_at": "2025-02-25T17:30:26.455Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 11,
-    "fields": {
-        "header": "В Амазонке обнаружен новый вид светящихся грибов",
-        "content": "Ученые открыли в тропических лесах Амазонки новый вид грибов, излучающих яркое зеленое свечение. Грибы, названные \"Mycеna luxaeterna\", растут на гнилой древесине и светятся ночью, привлекая насекомых. Это открытие подчеркивает богатство биоразнообразия Амазонки.",
-        "created_at": "2025-02-25T16:03:43.532Z",
-        "updated_at": "2025-02-25T16:03:43.532Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 12,
-    "fields": {
-        "header": "Создан биопластик из отходов морепродуктов",
-        "content": "Ученые разработали биоразлагаемый пластик из хитина, содержащегося в панцирях ракообразных. Новый материал, \"ChitoPlast\", полностью разлагается и может заменить обычный пластик.",
-        "created_at": "2025-02-25T16:08:48.655Z",
-        "updated_at": "2025-02-25T16:08:48.655Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 13,
-    "fields": {
-        "header": "Искусственный интеллект помог обнаружить новую экзопланету",
-        "content": "Используя алгоритмы ИИ, астрономы обнаружили экзопланету, вращающуюся вокруг звезды, похожей на Солнце. Планета потенциально может поддерживать жизнь.",
-        "created_at": "2025-02-25T17:29:23.799Z",
-        "updated_at": "2025-02-25T17:29:23.799Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 14,
-    "fields": {
-        "header": "Разработан съедобный датчик для контроля свежести продуктов",
-        "content": "Ученые создали съедобный датчик, который меняет цвет, указывая на степень свежести продуктов. Датчик может сократить пищевые отходы.",
-        "created_at": "2025-02-25T17:29:41.513Z",
-        "updated_at": "2025-02-25T17:29:41.513Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 15,
-    "fields": {
-        "header": "В Антарктиде обнаружены следы древнего леса",
-        "content": "Геологи обнаружили окаменелые остатки древнего леса, существовавшего в Антарктиде миллионы лет назад. Это открытие проливает свет на климат прошлого.",
-        "created_at": "2025-02-25T17:30:02.408Z",
-        "updated_at": "2025-02-25T17:30:02.408Z"
-    }
-},
-{
-    "model": "news.newsmodel",
-    "pk": 16,
-    "fields": {
-        "header": "Создан прототип летающего автомобиля",
-        "content": "Инженеры представили прототип летающего автомобиля, способного вертикально взлетать и приземляться. Ожидается, что технология изменит городскую мобильность.",
-        "created_at": "2025-02-25T17:30:26.455Z",
-        "updated_at": "2025-02-25T17:30:26.455Z"
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 1,
-    "fields": {
-        "link": "https://some-journal.com/random/article",
-        "news": 1
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 2,
-    "fields": {
-        "link": "https://another-journal.com/random/article",
-        "news": 1
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 3,
-    "fields": {
-        "link": "https://science-journal/random/article",
-        "news": 2
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 4,
-    "fields": {
-        "link": "https://not.real.site.com/random/article",
-        "news": 2
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 7,
-    "fields": {
-        "link": "https://some-journal.com/random/article",
-        "news": 1
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 8,
-    "fields": {
-        "link": "https://another-journal.com/random/article",
-        "news": 1
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 9,
-    "fields": {
-        "link": "https://science-journal/random/article",
-        "news": 2
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 10,
-    "fields": {
-        "link": "https://not.real.site.com/random/article",
-        "news": 2
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 17,
-    "fields": {
-        "link": "https://some-journal.com/random/article",
-        "news": 1
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 18,
-    "fields": {
-        "link": "https://another-journal.com/random/article",
-        "news": 1
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 19,
-    "fields": {
-        "link": "https://science-journal/random/article",
-        "news": 2
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 20,
-    "fields": {
-        "link": "https://not.real.site.com/random/article",
-        "news": 2
+        "group_name": "ИСТ(б)1-21",
+        "created_at": "2025-05-14T10:17:56.884Z"
     }
 }
 ]

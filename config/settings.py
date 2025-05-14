@@ -74,9 +74,10 @@ MIDDLEWARE = [
 # https://pypi.org/project/django-cors-headers/
 
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:5173',
-    'http://192.168.31.169:5173',
     'http://localhost:3000',
+    'http://localhost:8080',
+    'http://192.168.31.169:3000',
+    'http://192.168.31.169:8080',
 ]
 
 CORS_ALLOW_CREDENTIALS = True

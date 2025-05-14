@@ -4,13 +4,14 @@ SEMESTER = (
 )
 
 LESSON_TYPE = (
-    ("Practice", "Practice"),
-    ("Lecture", "Lecture"),
+    ("Практика", "Практика"),
+    ("Лекция", "Лекция"),
+    ("Лабораторная", "Лабораторная")
 )
 
 WEEK_VARIANCE = (
-    ("Odd", "Odd"),
-    ("Even", "Even"),
+    ("Числ.", "Числ."),
+    ("Знам.", "Знам."),
 )
 
 START_PERIOD = (
