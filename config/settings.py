@@ -124,7 +124,7 @@ AUTH_USER_MODEL = 'account.CustomUser'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_config_url.config(default=config('DATABASE_URL'))
+    'default': dj_config_url.config(env=config('DATABASE_URL'))
 }
 
 
@@ -224,7 +224,7 @@ SIMPLE_JWT = {
 # Documentation settings:
 
 SWAGGER_SETTINGS = {
-    'SECURITY_DEFINITIONS':{
+    'SECURITY_DEFINITIONS': {
         'api_key':{
             'type':'apiKey',
             'in':'header',
