@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 import os
-import dj_config_url
+import dj_database_url
 from pathlib import Path
 from datetime import timedelta
 from decouple import config
@@ -124,9 +124,8 @@ AUTH_USER_MODEL = 'account.CustomUser'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
-    'default': dj_config_url.config(env=config('DATABASE_URL'))
+    'default': dj_database_url.config(conn_health_checks=True, default=config('DATABASE_URL'))
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators

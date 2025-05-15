@@ -7,15 +7,15 @@ from decouple import config
 from uuid import uuid4
 
 
-# project_path = os.path.join(os.path.dirname(__file__), "..")
-# sys.path.append(project_path)
+project_path = os.path.join(os.path.dirname(__file__), "..")
+sys.path.append(project_path)
 
-# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
-# django.setup()
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
+django.setup()
     
-# def make_password(password: str) -> None:
-#     hashed_password = make_password(password="qwerty")
-#     print(hashed_password)
+def make_password(password: str) -> None:
+    hashed_password = make_password(password="qwerty")
+    print(hashed_password)
 
 
 def calculate_differences():
@@ -24,6 +24,4 @@ def calculate_differences():
     print(type(date_now))
     
     
-# calculate_differences()
-
-print(config("DATABASE_URL"))
+calculate_differences()
