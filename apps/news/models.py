@@ -5,6 +5,7 @@ from django.db import models
 
 class NewsModel(models.Model):
     header = models.CharField(max_length=200, unique=False)
+    preview = models.ImageField(upload_to="uploads/news/", blank=True, null=True)
     content = models.TextField(blank=False, null=False)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)

@@ -1,0 +1,38 @@
+[
+{
+    "model": "account.customuser",
+    "pk": 1,
+    "fields": {
+        "last_login": "2025-05-15T16:52:54.680Z",
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-05-14T10:14:06.058Z",
+        "username": "admin | admin@mail.com",
+        "email": "admin@mail.com",
+        "password": "pbkdf2_sha256$870000$N4dR8rYNrmXrWgCgT0gFhT$wLe4kdcVhiugN1xjE4tTpNgaYZRFfCdUogHmn1WvyHY=",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 2,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-14T10:14:47.259Z",
+        "username": "Сабыркулов Нурмухаммед",
+        "email": "user@mail.com",
+        "password": "pbkdf2_sha256$870000$3HZd1g5lQ7QDJRj5pImCom$LnmP/RQYkqurf48FTFSuPd+5U9NhH2NwP5Cge7qA9EM=",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

@@ -16,7 +16,7 @@ static:
 
 build:
 	docker compose down
-	@if [ ! -z "$(shell docker images -q student-schedule-web)" ]; then \
-        docker rmi student-schedule-web; \
+	@if [ ! -z "$(shell docker images -q student-schedule__server-server)" ]; then \
+        docker rmi student-schedule__server-server; \
     fi
 	docker compose up --build
