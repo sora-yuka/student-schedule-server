@@ -1,0 +1,95 @@
+[
+{
+    "model": "schedule.schedulemodel",
+    "pk": 1,
+    "fields": {
+        "week_day": "Monday",
+        "group": 1,
+        "semester": "Spring"
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 2,
+    "fields": {
+        "week_day": "Tuesday",
+        "group": 1,
+        "semester": "Spring"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 1,
+    "fields": {
+        "schedule": 1,
+        "professor": 7,
+        "start_period": "13:00",
+        "end_period": "14:20",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "ауд. Стадион",
+        "lesson_name": "Физическая культура и спорт",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 2,
+    "fields": {
+        "schedule": 1,
+        "professor": 3,
+        "start_period": "15:00",
+        "end_period": "16:20",
+        "week_variance": null,
+        "lesson_type": "Лекция",
+        "class_room": "2-корпус, ауд. 2/616",
+        "lesson_name": "Базы данных",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 3,
+    "fields": {
+        "schedule": 2,
+        "professor": 4,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": null,
+        "lesson_type": "Лекция",
+        "class_room": "1-корпус, ауд. 1/348",
+        "lesson_name": "Проектирование и разработка веб-приложений (Backend 2)",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 4,
+    "fields": {
+        "schedule": 2,
+        "professor": 8,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": "Знам.",
+        "lesson_type": "Лабораторная",
+        "class_room": "3-корпус, ауд. 3/110",
+        "lesson_name": "Программирование бизнес-приложений",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.semesterschedulemodel",
+    "pk": 1,
+    "fields": {
+        "onset": "2025-01-19",
+        "end": "2025-05-29",
+        "semester": "Spring",
+        "group": 1,
+        "course": "2nd course",
+        "schedules": [
+            1,
+            2
+        ]
+    }
+}
+]
