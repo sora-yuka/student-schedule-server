@@ -6,6 +6,7 @@ from .models import LessonModel, ScheduleModel, SemesterScheduleModel
 
 
 class LessonSerializer(serializers.ModelSerializer):
+    professor = serializers.StringRelatedField()
     
     class Meta:
         model = LessonModel
@@ -34,6 +35,6 @@ class SemesterScheduleSerializer(serializers.ModelSerializer):
                 lessons = LessonModel.objects.filter(schedule__in=schedules)
                 representation[day] = [LessonSerializer(lesson).data for lesson in lessons]
             else:
-                representation[day] = "No schedule" 
+                representation[day] = "No schedule"
 
         return representation
