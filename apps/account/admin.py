@@ -18,7 +18,7 @@ class UserCreationForm(forms.ModelForm):
     
     class Meta:
         model = User
-        fields = ["username", "email", "password"]
+        fields = ["username", "email", "password", "is_teacher"]
         
     def save(self, commit=True) -> models.Model:
         user = super().save(commit=False)
@@ -34,7 +34,7 @@ class UserChangeForm(forms.ModelForm):
     
     class Meta:
         model = User
-        fields = ["username", "email", "password"]
+        fields = ["username", "email", "password", "is_teacher"]
 
 
 class UserAdmin(DefaultUserAdmin):
@@ -42,7 +42,7 @@ class UserAdmin(DefaultUserAdmin):
     add_form = UserCreationForm
     
     fieldsets = [
-        (None, {"fields": ["username", "email", "password"]}),
+        (None, {"fields": ["username", "email", "password", "is_teacher"]}),
         ("Permissions", {"fields": ["is_active", "is_staff"]})
     ]
     add_fieldsets = [
@@ -50,17 +50,26 @@ class UserAdmin(DefaultUserAdmin):
             None,
             {
                 "classes": ["wide"],
-                "fields": ["username", "email", "password"]
+                "fields": ["username", "email", "password", "is_teacher"]
             }
         )
     ]
+    
+    DefaultUserAdmin.list_display = ("username", "email", "is_teacher")
+    DefaultUserAdmin.filter_horizontal + ("user_permissions", "groups")  
+    
     search_fields = ["username"]
     
+    def get_queryset(self, request):
+        qs = super().get_queryset(request)
+        
+        return qs.filter(is_superuser=False)
+        
 
 def admin_register(model: models.Model, admin_class: admin.ModelAdmin = None) -> None:
     try:
         admin.site.register(model, admin_class)
     except AlreadyRegistered:
         pass
-    
+
 admin_register(model=User, admin_class=UserAdmin)

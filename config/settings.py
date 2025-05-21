@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'apps.account',
     'apps.schedule',
     'apps.profiles',
+    'apps.professor',
     'apps.faculties',
     'apps.course',
     'apps.news',

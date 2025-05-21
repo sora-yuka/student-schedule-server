@@ -39,6 +39,7 @@ class CustomUser(AbstractUser):
     username = models.CharField(max_length=200)
     email = models.EmailField(unique=True)
     password = models.CharField(max_length=200)
+    is_teacher = models.BooleanField(default=False)
     
     object = UserManager()
     
