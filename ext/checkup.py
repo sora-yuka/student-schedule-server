@@ -23,5 +23,3 @@ def calculate_differences():
     date_now = datetime.now()
     print(type(date_now))
     
-    
-calculate_differences()

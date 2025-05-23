@@ -29,7 +29,7 @@ SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config('DEBUG', default=True)
 
-ALLOWED_HOSTS = config('ALLOWED_HOSTS').split(' ')
+ALLOWED_HOSTS = config('ALLOWED_HOSTS').split()
 
 # Application definition
 
@@ -75,13 +75,8 @@ MIDDLEWARE = [
 # CORS headers
 # https://pypi.org/project/django-cors-headers/
 
-CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'http://localhost:8080',
-    'http://192.168.31.169:3000',
-    'http://192.168.31.169:8080',
-]
-
+CORS_ALLOWED_ORIGINS = config('CORS_ALLOWED_ORIGINS').split()
+    
 CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'config.urls'
