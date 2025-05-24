@@ -3,23 +3,31 @@ from apps.professor.models import ProfessorModel
 from apps.faculties.models import GroupsModel
 
 def directory_path(instance: models.Model, filename: str) -> str:
-    return "courses/{0}/{1}".format(instance.name, filename)
+    return "courses/{0}/{1}/{2}".format(
+        instance.course_content.course.name, 
+        instance.course_content.name, 
+        filename
+    )
 
 
-class CourseContentModel(models.Model):
-    name = models.CharField(max_length=100)
-    content = models.FileField(upload_to=directory_path)
-    # course = models.ForeignKey(to="CourseModel", on_delete=models.CASCADE)
-    
-    def __str__(self) -> str:
-        return self.name
-    
-    
 class CourseModel(models.Model):
     name = models.CharField(max_length=100)
     professor = models.ForeignKey(to=ProfessorModel, on_delete=models.CASCADE)
     description = models.TextField(blank=True, null=True)
-    group = models.ForeignKey(to=GroupsModel, on_delete=models.CASCADE)
+    group = models.ManyToManyField(to=GroupsModel)
     
     def __str__(self) -> str:
         return self.name
+
+
+class CourseContentModel(models.Model):
+    name = models.CharField(max_length=100)
+    course = models.ForeignKey(to=CourseModel, on_delete=models.CASCADE)
+    
+    def __str__(self) -> str:
+        return f"{self.course} | {self.name}"
+
+    
+class ContentModel(models.Model):
+    course_content = models.ForeignKey(to=CourseContentModel, on_delete=models.CASCADE)
+    content = models.FileField(upload_to=directory_path)

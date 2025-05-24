@@ -2,16 +2,19 @@ from django.contrib import admin
 from django.db.models import Model
 from django.contrib.admin.exceptions import AlreadyRegistered
 
-from .models import CourseModel, CourseContentModel
+from .models import CourseModel, CourseContentModel, ContentModel
 
 # Register your models here.
 
 
-def admin_register(model: Model, admin_class: admin.ModelAdmin = None) -> None:
-    try:
-        admin.site.register(model, admin_class)
-    except AlreadyRegistered:
-        pass
+class ContentInline(admin.TabularInline):
+    model = ContentModel
+    extra = 1
     
-admin_register(CourseModel)
-admin_register(CourseContentModel)
+
+@admin.register(CourseContentModel)
+class CourseContentModel(admin.ModelAdmin):
+    inlines = [ContentInline]
+
+
+admin.site.register(CourseModel)
