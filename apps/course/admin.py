@@ -2,7 +2,7 @@ from django.contrib import admin
 from django.db.models import Model
 from django.contrib.admin.exceptions import AlreadyRegistered
 
-from .models import CourseModel
+from .models import CourseModel, CourseContentModel
 
 # Register your models here.
 
@@ -14,3 +14,4 @@ def admin_register(model: Model, admin_class: admin.ModelAdmin = None) -> None:
         pass
     
 admin_register(CourseModel)
+admin_register(CourseContentModel)

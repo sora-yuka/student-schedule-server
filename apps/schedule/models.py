@@ -18,7 +18,7 @@ class ScheduleModel(models.Model):
 
 class LessonModel(models.Model):
     schedule = models.ForeignKey(to="ScheduleModel", on_delete=models.CASCADE)
-    professor = models.OneToOneField(to=ProfessorModel, on_delete=models.CASCADE)
+    professor = models.ForeignKey(to=ProfessorModel, on_delete=models.CASCADE)
     start_period = models.CharField(max_length=100, null=True, blank=True, choices=START_PERIOD)
     end_period = models.CharField(max_length=100, null=True, blank=True, choices=END_PERIOD)
     week_variance = models.CharField(max_length=100, null=True, blank=True, choices=WEEK_VARIANCE)

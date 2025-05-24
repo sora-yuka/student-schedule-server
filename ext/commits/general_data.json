@@ -3,11 +3,11 @@
     "model": "admin.logentry",
     "pk": 1,
     "fields": {
-        "action_time": "2025-05-21T13:05:15.278Z",
+        "action_time": "2025-05-24T13:54:57.218Z",
         "user": 1,
         "content_type": 6,
-        "object_id": "3",
-        "object_repr": "Сазбаков Замирбек Садыгалиевич - sazbakov.zamirbek@gmail.com",
+        "object_id": "2",
+        "object_repr": "Сабыркулов Нурмухаммед - user@mail.com",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -16,24 +16,24 @@
     "model": "admin.logentry",
     "pk": 2,
     "fields": {
-        "action_time": "2025-05-21T13:05:17.956Z",
+        "action_time": "2025-05-24T13:54:59.617Z",
         "user": 1,
-        "content_type": 11,
-        "object_id": "1",
-        "object_repr": "Сазбаков Замирбек Садыгалиевич",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "content_type": 6,
+        "object_id": "2",
+        "object_repr": "Сабыркулов Нурмухаммед - user@mail.com",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 3,
     "fields": {
-        "action_time": "2025-05-21T13:05:55.424Z",
+        "action_time": "2025-05-24T13:55:31.363Z",
         "user": 1,
-        "content_type": 6,
-        "object_id": "4",
-        "object_repr": "Тойбаева Жазгул Джумадиловна - toibaeva.zhazgul@gmail.com",
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "ИЭТ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -42,11 +42,11 @@
     "model": "admin.logentry",
     "pk": 4,
     "fields": {
-        "action_time": "2025-05-21T13:05:57.894Z",
+        "action_time": "2025-05-24T13:55:37.409Z",
         "user": 1,
-        "content_type": 11,
-        "object_id": "2",
-        "object_repr": "Тойбаева Жазгул Джумадиловна",
+        "content_type": 13,
+        "object_id": "1",
+        "object_repr": "ИЭТ | ИСТ",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -55,11 +55,11 @@
     "model": "admin.logentry",
     "pk": 5,
     "fields": {
-        "action_time": "2025-05-21T13:06:33.920Z",
+        "action_time": "2025-05-24T13:55:45.883Z",
         "user": 1,
-        "content_type": 6,
-        "object_id": "5",
-        "object_repr": "Койчуманова Жамила - koichumanova.djamila@gmail.com",
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -68,11 +68,11 @@
     "model": "admin.logentry",
     "pk": 6,
     "fields": {
-        "action_time": "2025-05-21T13:06:36.640Z",
+        "action_time": "2025-05-24T13:55:47.594Z",
         "user": 1,
-        "content_type": 11,
-        "object_id": "3",
-        "object_repr": "Койчуманова Жамила",
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Сабыркулов Нурмухаммед - user@mail.com | 2nd course | ИЭТ | ИСТ | ИСТ(б) 1-23",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -81,11 +81,11 @@
     "model": "admin.logentry",
     "pk": 7,
     "fields": {
-        "action_time": "2025-05-21T13:07:07.175Z",
+        "action_time": "2025-05-24T13:58:07.772Z",
         "user": 1,
         "content_type": 6,
-        "object_id": "6",
-        "object_repr": "Аманкулова Нургуль Асимкановна - amankulova.nurgul@gmail.com",
+        "object_id": "3",
+        "object_repr": "Сазбаков Замирбек Садыгалиевич - rifcozuj@aldoz.ca",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -94,24 +94,24 @@
     "model": "admin.logentry",
     "pk": 8,
     "fields": {
-        "action_time": "2025-05-21T13:07:10.909Z",
+        "action_time": "2025-05-24T13:58:09.214Z",
         "user": 1,
-        "content_type": 11,
-        "object_id": "4",
-        "object_repr": "Аманкулова Нургуль Асимкановна",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "content_type": 6,
+        "object_id": "3",
+        "object_repr": "Сазбаков Замирбек Садыгалиевич - rifcozuj@aldoz.ca",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 9,
     "fields": {
-        "action_time": "2025-05-21T13:07:28.960Z",
+        "action_time": "2025-05-24T13:58:45.334Z",
         "user": 1,
         "content_type": 6,
-        "object_id": "7",
-        "object_repr": "Апилова Тинатин Азанкуловна - apilova.tinatin@gmail.com",
+        "object_id": "4",
+        "object_repr": "Койчуманова Жамила - mecjo@izo.gb",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -120,24 +120,24 @@
     "model": "admin.logentry",
     "pk": 10,
     "fields": {
-        "action_time": "2025-05-21T13:07:30.908Z",
+        "action_time": "2025-05-24T13:58:46.879Z",
         "user": 1,
-        "content_type": 11,
-        "object_id": "5",
-        "object_repr": "Апилова Тинатин Азанкуловна",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "content_type": 6,
+        "object_id": "4",
+        "object_repr": "Койчуманова Жамила - mecjo@izo.gb",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 11,
     "fields": {
-        "action_time": "2025-05-21T13:07:54.456Z",
+        "action_time": "2025-05-24T13:59:06.278Z",
         "user": 1,
         "content_type": 6,
-        "object_id": "8",
-        "object_repr": "Раззаков Медер Иматбекович - razzakov.meder@gmail.com",
+        "object_id": "5",
+        "object_repr": "Тойбаева Жазгул Джумадиловна - toakpoh@kelel.vi",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -146,24 +146,24 @@
     "model": "admin.logentry",
     "pk": 12,
     "fields": {
-        "action_time": "2025-05-21T13:08:30.804Z",
+        "action_time": "2025-05-24T13:59:11.675Z",
         "user": 1,
         "content_type": 6,
-        "object_id": "9",
-        "object_repr": "Солпиева Залина Рысбековна - solpieva.zalina@gmail.com",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "object_id": "5",
+        "object_repr": "Тойбаева Жазгул Джумадиловна - toakpoh@kelel.vi",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 13,
     "fields": {
-        "action_time": "2025-05-21T13:08:32.272Z",
+        "action_time": "2025-05-24T13:59:29.513Z",
         "user": 1,
-        "content_type": 11,
+        "content_type": 6,
         "object_id": "6",
-        "object_repr": "Солпиева Залина Рысбековна",
+        "object_repr": "Аманкулова Нургуль Асимкановна - nuwbeb@hocus.hk",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -172,24 +172,24 @@
     "model": "admin.logentry",
     "pk": 14,
     "fields": {
-        "action_time": "2025-05-21T13:12:31.997Z",
+        "action_time": "2025-05-24T13:59:31.479Z",
         "user": 1,
-        "content_type": 12,
-        "object_id": "1",
-        "object_repr": "Институт электроники и телекоммуникации",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "content_type": 6,
+        "object_id": "6",
+        "object_repr": "Аманкулова Нургуль Асимкановна - nuwbeb@hocus.hk",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 15,
     "fields": {
-        "action_time": "2025-05-21T13:12:48.015Z",
+        "action_time": "2025-05-24T14:00:00.608Z",
         "user": 1,
-        "content_type": 13,
-        "object_id": "1",
-        "object_repr": "Институт электроники и телекоммуникации | Инженер программист",
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "Апилова Тинатин Азанкуловна - to@ve.sd",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -198,24 +198,24 @@
     "model": "admin.logentry",
     "pk": 16,
     "fields": {
-        "action_time": "2025-05-21T13:12:58.338Z",
+        "action_time": "2025-05-24T14:00:02.321Z",
         "user": 1,
-        "content_type": 14,
-        "object_id": "1",
-        "object_repr": "Институт электроники и телекоммуникации | Инженер программист | ИСТ(б) 1-23",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "content_type": 6,
+        "object_id": "7",
+        "object_repr": "Апилова Тинатин Азанкуловна - to@ve.sd",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 17,
     "fields": {
-        "action_time": "2025-05-21T13:15:31.137Z",
+        "action_time": "2025-05-24T14:00:19.999Z",
         "user": 1,
         "content_type": 6,
-        "object_id": "10",
-        "object_repr": "Зав. кафедрой - ???@mail.com",
+        "object_id": "8",
+        "object_repr": "Раззаков Медер Иматбекович - catadki@kigorrup.ge",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -224,50 +224,50 @@
     "model": "admin.logentry",
     "pk": 18,
     "fields": {
-        "action_time": "2025-05-21T13:15:33.666Z",
+        "action_time": "2025-05-24T14:00:21.073Z",
         "user": 1,
-        "content_type": 11,
-        "object_id": "7",
-        "object_repr": "Зав. кафедрой",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}]"
+        "content_type": 6,
+        "object_id": "8",
+        "object_repr": "Раззаков Медер Иматбекович - catadki@kigorrup.ge",
+        "action_flag": 2,
+        "change_message": "[]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 19,
     "fields": {
-        "action_time": "2025-05-21T13:18:06.846Z",
+        "action_time": "2025-05-24T14:00:47.322Z",
         "user": 1,
-        "content_type": 7,
-        "object_id": "1",
-        "object_repr": "Институт электроники и телекоммуникации | Инженер программист | ИСТ(б) 1-23 | Monday | Spring",
-        "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0424\\u0438\\u0437\\u0438\\u0447\\u0435\\u0441\\u043a\\u0430\\u044f \\u043a\\u0443\\u043b\\u044c\\u0442\\u0443\\u0440\\u0430 \\u0438 \\u0441\\u043f\\u043e\\u0440\\u0442 | \\u0417\\u0430\\u0432. \\u043a\\u0430\\u0444\\u0435\\u0434\\u0440\\u043e\\u0439 | \\u0430\\u0443\\u0434. \\u0421\\u0442\\u0430\\u0434\\u0438\\u043e\\u043d\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0411\\u0430\\u0437\\u044b \\u0434\\u0430\\u043d\\u043d\\u044b\\u0445 | \\u041a\\u043e\\u0439\\u0447\\u0443\\u043c\\u0430\\u043d\\u043e\\u0432\\u0430 \\u0416\\u0430\\u043c\\u0438\\u043b\\u0430 | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 2/616\"}}]"
-    }
-},
-{
-    "model": "admin.logentry",
-    "pk": 20,
-    "fields": {
-        "action_time": "2025-05-21T13:18:18.225Z",
-        "user": 1,
-        "content_type": 9,
-        "object_id": "1",
-        "object_repr": "Spring semester | FROM '2025-01-19' TO '2025-05-29' | Институт электроники и телекоммуникации | Инженер программист | ИСТ(б) 1-23",
+        "content_type": 6,
+        "object_id": "9",
+        "object_repr": "Зав. кафедрой - ohuvun@kud.my",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
 },
 {
     "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2025-05-24T14:00:48.624Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "9",
+        "object_repr": "Зав. кафедрой - ohuvun@kud.my",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
     "pk": 21,
     "fields": {
-        "action_time": "2025-05-21T13:21:50.426Z",
+        "action_time": "2025-05-24T14:02:54.309Z",
         "user": 1,
         "content_type": 11,
-        "object_id": "8",
-        "object_repr": "Раззаков Медер Иматбекович",
+        "object_id": "1",
+        "object_repr": "Аманкулова Нургуль Асимкановна",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -276,37 +276,219 @@
     "model": "admin.logentry",
     "pk": 22,
     "fields": {
-        "action_time": "2025-05-21T13:22:59.540Z",
+        "action_time": "2025-05-24T14:02:56.811Z",
         "user": 1,
-        "content_type": 7,
+        "content_type": 11,
         "object_id": "2",
-        "object_repr": "Институт электроники и телекоммуникации | Инженер программист | ИСТ(б) 1-23 | Tuesday | Spring",
+        "object_repr": "Апилова Тинатин Азанкуловна",
         "action_flag": 1,
-        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u0432\\u0435\\u0431-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 (Backend 2) | \\u0410\\u043c\\u0430\\u043d\\u043a\\u0443\\u043b\\u043e\\u0432\\u0430 \\u041d\\u0443\\u0440\\u0433\\u0443\\u043b\\u044c \\u0410\\u0441\\u0438\\u043c\\u043a\\u0430\\u043d\\u043e\\u0432\\u043d\\u0430 | 1-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 1/348\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c\\u0435\\u0434\\u0435\\u0440 \\u0418\\u043c\\u0430\\u0442\\u0431\\u0435\\u043a\\u043e\\u0432\\u0438\\u0447 | 3-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 3/110\"}}]"
+        "change_message": "[{\"added\": {}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 23,
     "fields": {
-        "action_time": "2025-05-21T13:27:58.540Z",
+        "action_time": "2025-05-24T14:02:58.436Z",
         "user": 1,
-        "content_type": 9,
-        "object_id": "1",
-        "object_repr": "Spring semester | FROM '2025-01-19' TO '2025-05-29' | Институт электроники и телекоммуникации | Инженер программист | ИСТ(б) 1-23",
-        "action_flag": 2,
-        "change_message": "[{\"changed\": {\"fields\": [\"Schedules\"]}}]"
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Зав. кафедрой",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
     }
 },
 {
     "model": "admin.logentry",
     "pk": 24,
     "fields": {
-        "action_time": "2025-05-21T13:32:58.251Z",
+        "action_time": "2025-05-24T14:03:00.674Z",
         "user": 1,
-        "content_type": 10,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Койчуманова Жамила",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2025-05-24T14:03:03.075Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "Раззаков Медер Иматбекович",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2025-05-24T14:03:04.792Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Сазбаков Замирбек Садыгалиевич",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2025-05-24T14:03:07.033Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Тойбаева Жазгул Джумадиловна",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2025-05-24T14:07:28.762Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "10",
+        "object_repr": "Искендерова А.К. - cimu@nib.net",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2025-05-24T14:07:30.360Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Искендерова А.К.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2025-05-24T14:09:23.244Z",
+        "user": 1,
+        "content_type": 6,
+        "object_id": "11",
+        "object_repr": "Кунтубаева А.А. - do@aketi.bi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2025-05-24T14:09:24.608Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Кунтубаева А.А.",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2025-05-24T14:19:39.081Z",
+        "user": 1,
+        "content_type": 7,
         "object_id": "1",
-        "object_repr": "Сабыркулов Нурмухаммед - user@mail.com | 2nd course | Институт электроники и телекоммуникации | Инженер программист | ИСТ(б) 1-23",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Monday | Spring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041c\\u0430\\u043d\\u0430\\u0441\\u043e\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u0435 | \\u0418\\u0441\\u043a\\u0435\\u043d\\u0434\\u0435\\u0440\\u043e\\u0432\\u0430 \\u0410.\\u041a. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 2/625\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0418\\u0441\\u0442\\u043e\\u0440\\u0438\\u044f \\u041a\\u044b\\u0440\\u0433\\u044b\\u0437\\u0441\\u0442\\u0430\\u043d\\u0430 | \\u041a\\u0443\\u043d\\u0442\\u0443\\u0431\\u0430\\u0435\\u0432\\u0430 \\u0410.\\u0410. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 2/616\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041c\\u0430\\u043d\\u0430\\u0441\\u043e\\u0432\\u0435\\u0434\\u0435\\u043d\\u0438\\u0435 | \\u0418\\u0441\\u043a\\u0435\\u043d\\u0434\\u0435\\u0440\\u043e\\u0432\\u0430 \\u0410.\\u041a. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. 2/616\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0424\\u0438\\u0437\\u0438\\u0447\\u0435\\u0441\\u043a\\u0430\\u044f \\u043a\\u0443\\u043b\\u044c\\u0442\\u0443\\u0440\\u0430 \\u0438 \\u0441\\u043f\\u043e\\u0440\\u0442 | \\u0417\\u0430\\u0432. \\u043a\\u0430\\u0444\\u0435\\u0434\\u0440\\u043e\\u0439 | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434. \\u0421\\u0442\\u0430\\u0434\\u0438\\u043e\\u043d\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0418\\u0441\\u0442\\u043e\\u0440\\u0438\\u044f \\u041a\\u044b\\u0440\\u0433\\u044b\\u0437\\u0441\\u0442\\u0430\\u043d\\u0430 | \\u041a\\u0443\\u043d\\u0442\\u0443\\u0431\\u0430\\u0435\\u0432\\u0430 \\u0410.\\u0410. | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.2/514\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2025-05-24T14:21:05.790Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Tuesday | Spring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u0432\\u0435\\u0431-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 (BackEnd) 2 | \\u0410\\u043c\\u0430\\u043d\\u043a\\u0443\\u043b\\u043e\\u0432\\u0430 \\u041d\\u0443\\u0440\\u0433\\u0443\\u043b\\u044c \\u0410\\u0441\\u0438\\u043c\\u043a\\u0430\\u043d\\u043e\\u0432\\u043d\\u0430 | 1-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.1/348\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c\\u0435\\u0434\\u0435\\u0440 \\u0418\\u043c\\u0430\\u0442\\u0431\\u0435\\u043a\\u043e\\u0432\\u0438\\u0447 | 3-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.3/110\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2025-05-24T14:22:41.856Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Wednesday | Spring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c\\u0435\\u0434\\u0435\\u0440 \\u0418\\u043c\\u0430\\u0442\\u0431\\u0435\\u043a\\u043e\\u0432\\u0438\\u0447 | 1-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.1/348\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041e\\u0431\\u044a\\u0435\\u043a\\u0442\\u043d\\u043e-\\u043e\\u0440\\u0438\\u0435\\u043d\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u043d\\u043e\\u0435 \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 | \\u041a\\u043e\\u0439\\u0447\\u0443\\u043c\\u0430\\u043d\\u043e\\u0432\\u0430 \\u0416\\u0430\\u043c\\u0438\\u043b\\u0430 | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.2/607\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u0424\\u0438\\u0437\\u0438\\u0447\\u0435\\u0441\\u043a\\u0430\\u044f \\u043a\\u0443\\u043b\\u044c\\u0442\\u0443\\u0440\\u0430 \\u0438 \\u0441\\u043f\\u043e\\u0440\\u0442 | \\u0417\\u0430\\u0432. \\u043a\\u0430\\u0444\\u0435\\u0434\\u0440\\u043e\\u0439 | 2-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.\\u0421\\u0442\\u0430\\u0434\\u0438\\u043e\\u043d\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2025-05-24T14:23:56.456Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Thursday | Spring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041e\\u0431\\u044a\\u0435\\u043a\\u0442\\u043d\\u043e-\\u043e\\u0440\\u0438\\u0435\\u043d\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u043d\\u043e\\u0435 \\u043f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 | \\u0422\\u043e\\u0439\\u0431\\u0430\\u0435\\u0432\\u0430 \\u0416\\u0430\\u0437\\u0433\\u0443\\u043b \\u0414\\u0436\\u0443\\u043c\\u0430\\u0434\\u0438\\u043b\\u043e\\u0432\\u043d\\u0430 | 5-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.5/315\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0435\\u043a\\u0442\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0438 \\u0440\\u0430\\u0437\\u0440\\u0430\\u0431\\u043e\\u0442\\u043a\\u0430 \\u0432\\u0435\\u0431-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 (BackEnd) 2 | \\u0410\\u043f\\u0438\\u043b\\u043e\\u0432\\u0430 \\u0422\\u0438\\u043d\\u0430\\u0442\\u0438\\u043d \\u0410\\u0437\\u0430\\u043d\\u043a\\u0443\\u043b\\u043e\\u0432\\u043d\\u0430 | 5-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.5/317\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2025-05-24T14:25:11.682Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "ИЭТ | ИСТ | ИСТ(б) 1-23 | Friday | Spring",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041f\\u0440\\u043e\\u0433\\u0440\\u0430\\u043c\\u043c\\u0438\\u0440\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435 \\u0431\\u0438\\u0437\\u043d\\u0435\\u0441-\\u043f\\u0440\\u0438\\u043b\\u043e\\u0436\\u0435\\u043d\\u0438\\u0439 | \\u0420\\u0430\\u0437\\u0437\\u0430\\u043a\\u043e\\u0432 \\u041c\\u0435\\u0434\\u0435\\u0440 \\u0418\\u043c\\u0430\\u0442\\u0431\\u0435\\u043a\\u043e\\u0432\\u0438\\u0447 | 3-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.3/217\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041e\\u0441\\u043d\\u043e\\u0432\\u044b \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u043e\\u043d\\u043d\\u043e\\u0439 \\u0431\\u0435\\u0437\\u043e\\u043f\\u0430\\u0441\\u043d\\u043e\\u0441\\u0442\\u0438 | \\u0421\\u0430\\u0437\\u0431\\u0430\\u043a\\u043e\\u0432 \\u0417\\u0430\\u043c\\u0438\\u0440\\u0431\\u0435\\u043a \\u0421\\u0430\\u0434\\u044b\\u0433\\u0430\\u043b\\u0438\\u0435\\u0432\\u0438\\u0447 | 5-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.5/311\"}}, {\"added\": {\"name\": \"lesson model\", \"object\": \"\\u041e\\u0441\\u043d\\u043e\\u0432\\u044b \\u0438\\u043d\\u0444\\u043e\\u0440\\u043c\\u0430\\u0446\\u0438\\u043e\\u043d\\u043d\\u043e\\u0439 \\u0431\\u0435\\u0437\\u043e\\u043f\\u0430\\u0441\\u043d\\u043e\\u0441\\u0442\\u0438 | \\u0421\\u0430\\u0437\\u0431\\u0430\\u043a\\u043e\\u0432 \\u0417\\u0430\\u043c\\u0438\\u0440\\u0431\\u0435\\u043a \\u0421\\u0430\\u0434\\u044b\\u0433\\u0430\\u043b\\u0438\\u0435\\u0432\\u0438\\u0447 | 5-\\u043a\\u043e\\u0440\\u043f\\u0443\\u0441, \\u0430\\u0443\\u0434.5/315\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2025-05-24T14:25:17.997Z",
+        "user": 1,
+        "content_type": 9,
+        "object_id": "1",
+        "object_repr": "Spring semester | FROM '2025-01-21' TO '2025-05-28' | ИЭТ | ИСТ | ИСТ(б) 1-23",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2025-05-24T14:32:26.892Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "1",
+        "object_repr": "Объектно-ориентированное программирование 1",
         "action_flag": 1,
         "change_message": "[{\"added\": {}}]"
     }
@@ -819,179 +1001,215 @@
     "model": "auth.permission",
     "pk": 57,
     "fields": {
-        "name": "Can add course model",
+        "name": "Can add course content model",
         "content_type": 15,
-        "codename": "add_coursemodel"
+        "codename": "add_coursecontentmodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 58,
     "fields": {
-        "name": "Can change course model",
+        "name": "Can change course content model",
         "content_type": 15,
-        "codename": "change_coursemodel"
+        "codename": "change_coursecontentmodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 59,
     "fields": {
-        "name": "Can delete course model",
+        "name": "Can delete course content model",
         "content_type": 15,
-        "codename": "delete_coursemodel"
+        "codename": "delete_coursecontentmodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 60,
     "fields": {
-        "name": "Can view course model",
+        "name": "Can view course content model",
         "content_type": 15,
-        "codename": "view_coursemodel"
+        "codename": "view_coursecontentmodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 61,
     "fields": {
-        "name": "Can add news model",
+        "name": "Can add course model",
         "content_type": 16,
-        "codename": "add_newsmodel"
+        "codename": "add_coursemodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 62,
     "fields": {
-        "name": "Can change news model",
+        "name": "Can change course model",
         "content_type": 16,
-        "codename": "change_newsmodel"
+        "codename": "change_coursemodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 63,
     "fields": {
-        "name": "Can delete news model",
+        "name": "Can delete course model",
         "content_type": 16,
-        "codename": "delete_newsmodel"
+        "codename": "delete_coursemodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 64,
     "fields": {
-        "name": "Can view news model",
+        "name": "Can view course model",
         "content_type": 16,
-        "codename": "view_newsmodel"
+        "codename": "view_coursemodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 65,
     "fields": {
-        "name": "Can add resource model",
+        "name": "Can add news model",
         "content_type": 17,
-        "codename": "add_resourcemodel"
+        "codename": "add_newsmodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 66,
     "fields": {
-        "name": "Can change resource model",
+        "name": "Can change news model",
         "content_type": 17,
-        "codename": "change_resourcemodel"
+        "codename": "change_newsmodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 67,
     "fields": {
-        "name": "Can delete resource model",
+        "name": "Can delete news model",
         "content_type": 17,
-        "codename": "delete_resourcemodel"
+        "codename": "delete_newsmodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 68,
     "fields": {
-        "name": "Can view resource model",
+        "name": "Can view news model",
         "content_type": 17,
-        "codename": "view_resourcemodel"
+        "codename": "view_newsmodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 69,
     "fields": {
-        "name": "Can add room",
+        "name": "Can add resource model",
         "content_type": 18,
-        "codename": "add_room"
+        "codename": "add_resourcemodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 70,
     "fields": {
-        "name": "Can change room",
+        "name": "Can change resource model",
         "content_type": 18,
-        "codename": "change_room"
+        "codename": "change_resourcemodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 71,
     "fields": {
-        "name": "Can delete room",
+        "name": "Can delete resource model",
         "content_type": 18,
-        "codename": "delete_room"
+        "codename": "delete_resourcemodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 72,
     "fields": {
-        "name": "Can view room",
+        "name": "Can view resource model",
         "content_type": 18,
-        "codename": "view_room"
+        "codename": "view_resourcemodel"
     }
 },
 {
     "model": "auth.permission",
     "pk": 73,
     "fields": {
-        "name": "Can add message",
+        "name": "Can add room",
         "content_type": 19,
-        "codename": "add_message"
+        "codename": "add_room"
     }
 },
 {
     "model": "auth.permission",
     "pk": 74,
     "fields": {
-        "name": "Can change message",
+        "name": "Can change room",
         "content_type": 19,
-        "codename": "change_message"
+        "codename": "change_room"
     }
 },
 {
     "model": "auth.permission",
     "pk": 75,
     "fields": {
-        "name": "Can delete message",
+        "name": "Can delete room",
         "content_type": 19,
-        "codename": "delete_message"
+        "codename": "delete_room"
     }
 },
 {
     "model": "auth.permission",
     "pk": 76,
     "fields": {
-        "name": "Can view message",
+        "name": "Can view room",
         "content_type": 19,
+        "codename": "view_room"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+        "name": "Can add message",
+        "content_type": 20,
+        "codename": "add_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+        "name": "Can change message",
+        "content_type": 20,
+        "codename": "change_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+        "name": "Can delete message",
+        "content_type": 20,
+        "codename": "delete_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+        "name": "Can view message",
+        "content_type": 20,
         "codename": "view_message"
     }
 },
@@ -1112,15 +1330,15 @@
     "pk": 15,
     "fields": {
         "app_label": "course",
-        "model": "coursemodel"
+        "model": "coursecontentmodel"
     }
 },
 {
     "model": "contenttypes.contenttype",
     "pk": 16,
     "fields": {
-        "app_label": "news",
-        "model": "newsmodel"
+        "app_label": "course",
+        "model": "coursemodel"
     }
 },
 {
@@ -1128,15 +1346,15 @@
     "pk": 17,
     "fields": {
         "app_label": "news",
-        "model": "resourcemodel"
+        "model": "newsmodel"
     }
 },
 {
     "model": "contenttypes.contenttype",
     "pk": 18,
     "fields": {
-        "app_label": "chat",
-        "model": "room"
+        "app_label": "news",
+        "model": "resourcemodel"
     }
 },
 {
@@ -1144,39 +1362,39 @@
     "pk": 19,
     "fields": {
         "app_label": "chat",
+        "model": "room"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 20,
+    "fields": {
+        "app_label": "chat",
         "model": "message"
     }
 },
 {
     "model": "sessions.session",
-    "pk": "dwcolh61137ro3xs31faabgp06l9ju5l",
+    "pk": "pid9fq1eok0g4dit54vwgzqbx0ww40ty",
     "fields": {
-        "session_data": ".eJxVjLsOwjAMAP_FM4ritEkfIzvfUNmxQwsokZp2Qvw7qtQB1rvTvWGifZunveo6LQIjIFx-GVN8aj6EPCjfi4klb-vC5kjMaau5FdHX9Wz_BjPVGUawneXEDcYQqBNvqQmcRDWgY4wS0aPrG1LhrpXBD-Kd9MkNVm1yaFv4fAH2OzgY:1uHj4H:6pCo6zUiw8JxS2udsdeXeOYyaXR8uYFcFY9-o9vrLEA",
-        "expire_date": "2025-06-04T13:01:09.953Z"
-    }
-},
-{
-    "model": "sessions.session",
-    "pk": "r3k3dqwgmt2mdr8ayqw4vr8wat2iomam",
-    "fields": {
-        "session_data": ".eJxVjLsOwjAMAP_FM4ritEkfIzvfUNmxQwsokZp2Qvw7qtQB1rvTvWGifZunveo6LQIjIFx-GVN8aj6EPCjfi4klb-vC5kjMaau5FdHX9Wz_BjPVGUawneXEDcYQqBNvqQmcRDWgY4wS0aPrG1LhrpXBD-Kd9MkNVm1yaFv4fAH2OzgY:1uHj6F:p_TzZaSyo5gD47TC1_nXlaBlQPN-YzLTnexxRRZk0TU",
-        "expire_date": "2025-06-04T13:03:11.340Z"
+        "session_data": ".eJxVjEsOwiAUAO_y1obwLdCle89A4PGQqoGktCvj3U2TLnQ7M5k3hLhvNeyD1rBkmEHA5ZeliE9qh8iP2O6dYW_buiR2JOy0g916ptf1bP8GNY4KM-gsBHqJ0hp0vpSinYhJmUzKEVohudGTock4iRK9UiVaK6zljvtEqOHzBdcWN1I:1uIpKe:9fwWaUaixohNylTKnPA78rbX4d4HjwIGaU0mB3Iwxag",
+        "expire_date": "2025-06-07T13:54:36.855Z"
     }
 },
 {
     "model": "account.customuser",
     "pk": 1,
     "fields": {
-        "last_login": "2025-05-21T13:03:11.317Z",
+        "last_login": "2025-05-24T13:54:36.851Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
         "is_staff": true,
         "is_active": true,
-        "date_joined": "2025-05-14T10:14:06.058Z",
+        "date_joined": "2025-05-24T13:54:21.883Z",
         "username": "admin | admin@mail.com",
         "email": "admin@mail.com",
-        "password": "pbkdf2_sha256$870000$N4dR8rYNrmXrWgCgT0gFhT$wLe4kdcVhiugN1xjE4tTpNgaYZRFfCdUogHmn1WvyHY=",
+        "password": "pbkdf2_sha256$870000$1OCFkZTseNehHuujW9tDOf$O4tyeb26SX5lnPRX5/Z6VP3DElSyV4HItu4V0N6PDt8=",
         "is_teacher": false,
         "groups": [],
         "user_permissions": []
@@ -1192,10 +1410,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-14T10:14:47.259Z",
+        "date_joined": "2025-05-24T13:54:56.726Z",
         "username": "Сабыркулов Нурмухаммед",
         "email": "user@mail.com",
-        "password": "pbkdf2_sha256$870000$3HZd1g5lQ7QDJRj5pImCom$LnmP/RQYkqurf48FTFSuPd+5U9NhH2NwP5Cge7qA9EM=",
+        "password": "pbkdf2_sha256$870000$Ph0PKHwpwl3fmrKszURbHp$SawpOk14Rq14Nq9q+0+3RJHB3hyALS2a4jTr9NizHKg=",
         "is_teacher": false,
         "groups": [],
         "user_permissions": []
@@ -1211,10 +1429,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-21T13:05:14.807Z",
+        "date_joined": "2025-05-24T13:58:07.297Z",
         "username": "Сазбаков Замирбек Садыгалиевич",
-        "email": "sazbakov.zamirbek@gmail.com",
-        "password": "pbkdf2_sha256$870000$6p34Yejk3v79B2JMfY9DzJ$u7TdHh2jFvouf8qioTFHHJIapw+KarmaIZgHk/d5pSI=",
+        "email": "rifcozuj@aldoz.ca",
+        "password": "pbkdf2_sha256$870000$ONasHw75Pb67nkGKkQhRCJ$NXRvPHC93NPcWq3FUrtD8mzijgrn6FWMJmsIMnsfVzQ=",
         "is_teacher": true,
         "groups": [],
         "user_permissions": []
@@ -1230,10 +1448,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-21T13:05:54.963Z",
-        "username": "Тойбаева Жазгул Джумадиловна",
-        "email": "toibaeva.zhazgul@gmail.com",
-        "password": "pbkdf2_sha256$870000$vWNDSFMfG7zd6UTOUC3W17$Fj4IRwytMc302ZwaD0SuuRnKFHvi6Tu5Vq750ypg19k=",
+        "date_joined": "2025-05-24T13:58:44.856Z",
+        "username": "Койчуманова Жамила",
+        "email": "mecjo@izo.gb",
+        "password": "pbkdf2_sha256$870000$kzJVldNbEjD95UxXJZpZKz$C/U5pO4be562EIu+vXayCfaDiqxAU1O6whLARMNRTDY=",
         "is_teacher": true,
         "groups": [],
         "user_permissions": []
@@ -1249,10 +1467,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-21T13:06:33.454Z",
-        "username": "Койчуманова Жамила",
-        "email": "koichumanova.djamila@gmail.com",
-        "password": "pbkdf2_sha256$870000$2UnnUBYjv3k7NY2wn6s1sq$gcKwh20jztMVjk6/HGKdfO8PjToStB6yc7MHyrTMHkw=",
+        "date_joined": "2025-05-24T13:59:05.776Z",
+        "username": "Тойбаева Жазгул Джумадиловна",
+        "email": "toakpoh@kelel.vi",
+        "password": "pbkdf2_sha256$870000$S8ZcfGFLkuqY8HoZ9KMY3J$V6YLZ+kNJWTFFwrMD+PvFDVmgJQIX51bu/28NYURscE=",
         "is_teacher": true,
         "groups": [],
         "user_permissions": []
@@ -1268,10 +1486,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-21T13:07:06.711Z",
+        "date_joined": "2025-05-24T13:59:29.028Z",
         "username": "Аманкулова Нургуль Асимкановна",
-        "email": "amankulova.nurgul@gmail.com",
-        "password": "pbkdf2_sha256$870000$fdLGqn7xwZrYusQohmrb8J$YelAGzXrenHkgFm4opepC34NEtBd1LddwWEw6C6rn2k=",
+        "email": "nuwbeb@hocus.hk",
+        "password": "pbkdf2_sha256$870000$9uokffqgxeJuzKisWrQFd7$9U7H3VSbWILclravaD+AKZmELgshXtHTeaB/zENxoLo=",
         "is_teacher": true,
         "groups": [],
         "user_permissions": []
@@ -1287,10 +1505,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-21T13:07:28.490Z",
+        "date_joined": "2025-05-24T14:00:00.119Z",
         "username": "Апилова Тинатин Азанкуловна",
-        "email": "apilova.tinatin@gmail.com",
-        "password": "pbkdf2_sha256$870000$B7aWp388QaF9MZvrF3SqHT$hmpKMTBtlVHKHXYlvn9TtKJfM914zFbPOG6EPdl3UR0=",
+        "email": "to@ve.sd",
+        "password": "pbkdf2_sha256$870000$tBfBNd9iMU2KtHsBrLEuV1$/wZg3wOisXdchIkhAwmrmP3Yv9QfbzRL8HuCe58E6jA=",
         "is_teacher": true,
         "groups": [],
         "user_permissions": []
@@ -1306,10 +1524,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-21T13:07:53.993Z",
+        "date_joined": "2025-05-24T14:00:19.500Z",
         "username": "Раззаков Медер Иматбекович",
-        "email": "razzakov.meder@gmail.com",
-        "password": "pbkdf2_sha256$870000$4QeHSah6ifPvYOSAU6ZMl6$aWJ2JHz23Jmeu3Nd6OpIDBZFPhAYv1BHA/O+XHo2YtA=",
+        "email": "catadki@kigorrup.ge",
+        "password": "pbkdf2_sha256$870000$c5ehHE1wMZXEHvzXW41Itr$Nc2vYNgrVOlgNhIJspuInNc57DfFopXZhAmw2Ol0LNE=",
         "is_teacher": true,
         "groups": [],
         "user_permissions": []
@@ -1325,10 +1543,10 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-21T13:08:30.342Z",
-        "username": "Солпиева Залина Рысбековна",
-        "email": "solpieva.zalina@gmail.com",
-        "password": "pbkdf2_sha256$870000$nd5kFjqqGFuogkWu1VUqjv$XEei48Wm6dnpaoKMfDCFrpV81NYpWS9CG1ahC4zE1+Q=",
+        "date_joined": "2025-05-24T14:00:46.840Z",
+        "username": "Зав. кафедрой",
+        "email": "ohuvun@kud.my",
+        "password": "pbkdf2_sha256$870000$2U9nEw2wXO7cSLWdb2LSLp$DHhE+JqKwclmXXzDtvAFMdSjtUUG7Df3qIruIK0u6Fk=",
         "is_teacher": true,
         "groups": [],
         "user_permissions": []
@@ -1344,10 +1562,29 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-21T13:15:30.672Z",
-        "username": "Зав. кафедрой",
-        "email": "???@mail.com",
-        "password": "pbkdf2_sha256$870000$GOCQKzqBTYwMXaMKAgl2OU$tG555A6NsiZyIJlFNwGqh9Zx+0JrqIZObcqE4QvNlkQ=",
+        "date_joined": "2025-05-24T14:07:28.264Z",
+        "username": "Искендерова А.К.",
+        "email": "cimu@nib.net",
+        "password": "pbkdf2_sha256$870000$tl5MejF7QRNTRqNFaDDu5w$TYwlkLPg8KS0VBuUxbjtRcEpSGbFtPvRb2xuBRd1GOU=",
+        "is_teacher": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 11,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T14:09:22.747Z",
+        "username": "Кунтубаева А.А.",
+        "email": "do@aketi.bi",
+        "password": "pbkdf2_sha256$870000$FEE9pi2d86Of1DR6zDwoZX$aXegIDD6Ge7mFRKrPUhVG6QIJA2S2s73v3uRo1N8cqU=",
         "is_teacher": true,
         "groups": [],
         "user_permissions": []
@@ -1372,18 +1609,45 @@
     }
 },
 {
+    "model": "schedule.schedulemodel",
+    "pk": 3,
+    "fields": {
+        "week_day": "Wednesday",
+        "group": 1,
+        "semester": "Spring"
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 4,
+    "fields": {
+        "week_day": "Thursday",
+        "group": 1,
+        "semester": "Spring"
+    }
+},
+{
+    "model": "schedule.schedulemodel",
+    "pk": 5,
+    "fields": {
+        "week_day": "Friday",
+        "group": 1,
+        "semester": "Spring"
+    }
+},
+{
     "model": "schedule.lessonmodel",
     "pk": 1,
     "fields": {
         "schedule": 1,
-        "professor": 7,
-        "start_period": "13:00",
-        "end_period": "14:20",
-        "week_variance": null,
+        "professor": 8,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": "Числ.",
         "lesson_type": "Практика",
-        "class_room": "ауд. Стадион",
-        "lesson_name": "Физическая культура и спорт",
-        "number_of_weeks": "1-16"
+        "class_room": "2-корпус, ауд. 2/625",
+        "lesson_name": "Манасоведение",
+        "number_of_weeks": "1-7"
     }
 },
 {
@@ -1391,13 +1655,13 @@
     "pk": 2,
     "fields": {
         "schedule": 1,
-        "professor": 3,
-        "start_period": "15:00",
-        "end_period": "16:20",
-        "week_variance": null,
+        "professor": 9,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": "Числ.",
         "lesson_type": "Лекция",
         "class_room": "2-корпус, ауд. 2/616",
-        "lesson_name": "Базы данных",
+        "lesson_name": "История Кыргызстана",
         "number_of_weeks": "1-16"
     }
 },
@@ -1405,14 +1669,14 @@
     "model": "schedule.lessonmodel",
     "pk": 3,
     "fields": {
-        "schedule": 2,
-        "professor": 4,
-        "start_period": "10:00",
-        "end_period": "11:20",
-        "week_variance": null,
+        "schedule": 1,
+        "professor": 8,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": "Знам.",
         "lesson_type": "Лекция",
-        "class_room": "1-корпус, ауд. 1/348",
-        "lesson_name": "Проектирование и разработка веб-приложений (Backend 2)",
+        "class_room": "2-корпус, ауд. 2/616",
+        "lesson_name": "Манасоведение",
         "number_of_weeks": "1-16"
     }
 },
@@ -1420,14 +1684,179 @@
     "model": "schedule.lessonmodel",
     "pk": 4,
     "fields": {
+        "schedule": 1,
+        "professor": 3,
+        "start_period": "13:00",
+        "end_period": "14:20",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "2-корпус, ауд. Стадион",
+        "lesson_name": "Физическая культура и спорт",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 5,
+    "fields": {
+        "schedule": 1,
+        "professor": 9,
+        "start_period": "15:00",
+        "end_period": "16:20",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "2-корпус, ауд.2/514",
+        "lesson_name": "История Кыргызстана",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 6,
+    "fields": {
         "schedule": 2,
-        "professor": 8,
+        "professor": 1,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": null,
+        "lesson_type": "Лекция",
+        "class_room": "1-корпус, ауд.1/348",
+        "lesson_name": "Проектирование и разработка веб-приложений (BackEnd) 2",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 7,
+    "fields": {
+        "schedule": 2,
+        "professor": 5,
         "start_period": "11:30",
         "end_period": "12:50",
         "week_variance": "Знам.",
         "lesson_type": "Лабораторная",
-        "class_room": "3-корпус, ауд. 3/110",
+        "class_room": "3-корпус, ауд.3/110",
         "lesson_name": "Программирование бизнес-приложений",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 8,
+    "fields": {
+        "schedule": 3,
+        "professor": 5,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": "Числ.",
+        "lesson_type": "Лекция",
+        "class_room": "1-корпус, ауд.1/348",
+        "lesson_name": "Программирование бизнес-приложений",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 9,
+    "fields": {
+        "schedule": 3,
+        "professor": 4,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": null,
+        "lesson_type": "Лекция",
+        "class_room": "2-корпус, ауд.2/607",
+        "lesson_name": "Объектно-ориентированное программирование",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 10,
+    "fields": {
+        "schedule": 3,
+        "professor": 3,
+        "start_period": "13:00",
+        "end_period": "14:20",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "2-корпус, ауд.Стадион",
+        "lesson_name": "Физическая культура и спорт",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 11,
+    "fields": {
+        "schedule": 4,
+        "professor": 7,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": null,
+        "lesson_type": "Лабораторная",
+        "class_room": "5-корпус, ауд.5/315",
+        "lesson_name": "Объектно-ориентированное программирование",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 12,
+    "fields": {
+        "schedule": 4,
+        "professor": 2,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "5-корпус, ауд.5/317",
+        "lesson_name": "Проектирование и разработка веб-приложений (BackEnd) 2",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 13,
+    "fields": {
+        "schedule": 5,
+        "professor": 5,
+        "start_period": "10:00",
+        "end_period": "11:20",
+        "week_variance": null,
+        "lesson_type": "Лабораторная",
+        "class_room": "3-корпус, ауд.3/217",
+        "lesson_name": "Программирование бизнес-приложений",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 14,
+    "fields": {
+        "schedule": 5,
+        "professor": 6,
+        "start_period": "11:30",
+        "end_period": "12:50",
+        "week_variance": null,
+        "lesson_type": "Лекция",
+        "class_room": "5-корпус, ауд.5/311",
+        "lesson_name": "Основы информационной безопасности",
+        "number_of_weeks": "1-16"
+    }
+},
+{
+    "model": "schedule.lessonmodel",
+    "pk": 15,
+    "fields": {
+        "schedule": 5,
+        "professor": 6,
+        "start_period": "13:00",
+        "end_period": "14:20",
+        "week_variance": null,
+        "lesson_type": "Практика",
+        "class_room": "5-корпус, ауд.5/315",
+        "lesson_name": "Основы информационной безопасности",
         "number_of_weeks": "1-16"
     }
 },
@@ -1435,14 +1864,17 @@
     "model": "schedule.semesterschedulemodel",
     "pk": 1,
     "fields": {
-        "onset": "2025-01-19",
-        "end": "2025-05-29",
+        "onset": "2025-01-21",
+        "end": "2025-05-28",
         "semester": "Spring",
         "group": 1,
         "course": "2nd course",
         "schedules": [
             1,
-            2
+            2,
+            3,
+            4,
+            5
         ]
     }
 },
@@ -1451,7 +1883,7 @@
     "pk": 1,
     "fields": {
         "owner": 2,
-        "pfp": "uploads/pfp/3cc89acf-13ea-44f1-9274-bfa8e208f165.jpg",
+        "pfp": "uploads/pfp/3cc89acf-13ea-44f1-9274-bfa8e208f165_tkUkcDu.jpg",
         "course": "2nd course",
         "group": 1
     }
@@ -1460,7 +1892,7 @@
     "model": "professor.professormodel",
     "pk": 1,
     "fields": {
-        "owner": 3,
+        "owner": 6,
         "pfp": ""
     }
 },
@@ -1468,7 +1900,7 @@
     "model": "professor.professormodel",
     "pk": 2,
     "fields": {
-        "owner": 4,
+        "owner": 7,
         "pfp": ""
     }
 },
@@ -1476,7 +1908,7 @@
     "model": "professor.professormodel",
     "pk": 3,
     "fields": {
-        "owner": 5,
+        "owner": 9,
         "pfp": ""
     }
 },
@@ -1484,7 +1916,7 @@
     "model": "professor.professormodel",
     "pk": 4,
     "fields": {
-        "owner": 6,
+        "owner": 4,
         "pfp": ""
     }
 },
@@ -1492,7 +1924,7 @@
     "model": "professor.professormodel",
     "pk": 5,
     "fields": {
-        "owner": 7,
+        "owner": 8,
         "pfp": ""
     }
 },
@@ -1500,7 +1932,7 @@
     "model": "professor.professormodel",
     "pk": 6,
     "fields": {
-        "owner": 9,
+        "owner": 3,
         "pfp": ""
     }
 },
@@ -1508,7 +1940,7 @@
     "model": "professor.professormodel",
     "pk": 7,
     "fields": {
-        "owner": 10,
+        "owner": 5,
         "pfp": ""
     }
 },
@@ -1516,7 +1948,15 @@
     "model": "professor.professormodel",
     "pk": 8,
     "fields": {
-        "owner": 8,
+        "owner": 10,
+        "pfp": ""
+    }
+},
+{
+    "model": "professor.professormodel",
+    "pk": 9,
+    "fields": {
+        "owner": 11,
         "pfp": ""
     }
 },
@@ -1524,7 +1964,7 @@
     "model": "faculties.facultiesmodel",
     "pk": 1,
     "fields": {
-        "faculty_name": "Институт электроники и телекоммуникации"
+        "faculty_name": "ИЭТ"
     }
 },
 {
@@ -1532,7 +1972,7 @@
     "pk": 1,
     "fields": {
         "faculty": 1,
-        "specialty_name": "Инженер программист"
+        "specialty_name": "ИСТ"
     }
 },
 {
@@ -1542,26 +1982,17 @@
         "faculty": 1,
         "specialty": 1,
         "group_name": "ИСТ(б) 1-23",
-        "created_at": "2025-05-21T13:12:58.337Z"
+        "created_at": "2025-05-24T13:55:45.882Z"
     }
 },
 {
-    "model": "news.newsmodel",
+    "model": "course.coursemodel",
     "pk": 1,
     "fields": {
-        "header": "US Supreme Court hears arguments on Trump's order to end birthright citizenship",
-        "preview": "uploads/news/3723dd70-30d5-11f0-b5da-71555b1343d7.jpg.webp",
-        "content": "US President Donald Trump took his bid to end birthright citizenship to the US Supreme Court on Thursday, in a case that could help further his agenda on immigration and other issues.\r\nThe case asks whether lower court judges should be able to block presidential orders for the entire country - as they have done in this case. The justices did not appear to reach a consensus as they considered both sides.\r\n\r\nThe US solicitor general argued that lower courts overstepped their authority, saying this power should be curtailed.\r\n\r\nMeanwhile, the New Jersey solicitor general - arguing on behalf of a group of states - said siding with Trump would create a patchwork system of citizenship.\r\nThis would create \"chaos on the ground\", argued the lawyer, Jeremy Feigenbaum.\r\nIt is not clear when the court will issue its decision. If it agrees with Trump, then he could continue his wide-ranging use of executive orders to make good on campaign promises without having to wait for congressional approval - with limited checks by the courts.\r\nJustices across the ideological spectrum seemed to grapple with two issues during Thursday's two-hour hearing.\r\nThere was questioning of lower courts' power to block a presidential order nationwide. And the justices also considered the merits of the birthright citizenship order itself - which critics argue violates the 14th Amendment of the US Constitution and Supreme Court precedent.\r\nUS Solicitor General D John Sauer, arguing on behalf of the Trump administration, said the current system \"required judges to make rushed, high-stakes, low-information decisions\".\r\nThe justices grilled Sauer for over an hour, with liberal Justice Elena Kagan noting that the administration had lost on the birthright citizenship issue in every lower court. \"Why would you ever take this case to us?\" she asked.\r\n\r\nIn response, Sauer said a class-action lawsuit - which allow large numbers of plaintiffs to sue together - could provide one avenue. But the process could often be time-consuming and did not provide relief in emergency circumstances, he said.\r\nJustice Samuel Alito, one of the court's most prominent conservatives, appeared critical of the lower court's power to issue nationwide injunctions.\r\n\"Sometimes they're wrong,\" he said, adding that some lower court judges were \"vulnerable to an occupational disease, which is the disease of thinking that I am right, and I can do whatever I want.\"\r\nFeigenbaum, arguing on behalf of states alleging harm from the executive order, said siding with the Trump administration on this matter would be impractical and unconstitutional.\r\nEliminating the option for nationwide injunctions could create a patchwork citizenship system, he argued, where an individual could have status in one state, but lose it when crossing into another.\r\nFeigenbaum said this standard would have a harmful impact distribution of government benefits like Medicaid, immigration enforcement, and maintaining accurate statistics.\r\n\"Since the 14th Amendment, our country has never allowed American citizenship to vary based on the state in which someone resides,\" Feigenbaum said.\r\nAs the justices lobbed questions at the lawyers, a large group of protesters gathered outside to voice opposition to Trump's immigration policies.\r\nCongresswoman Nancy Pelosi, the former speaker of the House of Representatives, joined the demonstrators outside and read from the US Constitution.\r\n\"This is about birthright, it's about citizenship, it's about due process,\" she said.\r\nTrump has vowed to end birthright citizenship. Can he do it?\r\nIt is unusual for the Supreme Court to hold a hearing in May, and there is no indication of when it may rule. Trump appointed three of the nine justices on the conservative-majority court in his first term.\r\nMany legal experts say the president does not have the power to end birthright citizenship because it is guaranteed by the 14th Amendment of the US Constitution. So, even if Trump wins the current case, he may still have to fight off other legal challenges.\r\nSpecifically, the 14th Amendment stipulates that \"all persons born or naturalised in the United States, and subject to the jurisdiction thereof, are citizens\".\r\nIn the executive order, Trump argued that the phrase \"jurisdiction thereof\" meant that automatic citizenship did not apply to the children of undocumented immigrants, or people in the country temporarily.",
-        "created_at": "2025-05-15T18:12:53.633Z",
-        "updated_at": "2025-05-15T18:27:26.886Z"
-    }
-},
-{
-    "model": "news.resourcemodel",
-    "pk": 1,
-    "fields": {
-        "link": "https://www.bbc.com/news/articles/cm2yer83120o",
-        "news": 1
+        "name": "Объектно-ориентированное программирование 1",
+        "professor": 4,
+        "description": "",
+        "group": 1
     }
 }
 ]

@@ -3,7 +3,7 @@
     "model": "professor.professormodel",
     "pk": 1,
     "fields": {
-        "owner": 3,
+        "owner": 6,
         "pfp": ""
     }
 },
@@ -11,7 +11,7 @@
     "model": "professor.professormodel",
     "pk": 2,
     "fields": {
-        "owner": 4,
+        "owner": 7,
         "pfp": ""
     }
 },
@@ -19,7 +19,7 @@
     "model": "professor.professormodel",
     "pk": 3,
     "fields": {
-        "owner": 5,
+        "owner": 9,
         "pfp": ""
     }
 },
@@ -27,7 +27,7 @@
     "model": "professor.professormodel",
     "pk": 4,
     "fields": {
-        "owner": 6,
+        "owner": 4,
         "pfp": ""
     }
 },
@@ -35,7 +35,7 @@
     "model": "professor.professormodel",
     "pk": 5,
     "fields": {
-        "owner": 7,
+        "owner": 8,
         "pfp": ""
     }
 },
@@ -43,7 +43,31 @@
     "model": "professor.professormodel",
     "pk": 6,
     "fields": {
-        "owner": 9,
+        "owner": 3,
+        "pfp": ""
+    }
+},
+{
+    "model": "professor.professormodel",
+    "pk": 7,
+    "fields": {
+        "owner": 5,
+        "pfp": ""
+    }
+},
+{
+    "model": "professor.professormodel",
+    "pk": 8,
+    "fields": {
+        "owner": 10,
+        "pfp": ""
+    }
+},
+{
+    "model": "professor.professormodel",
+    "pk": 9,
+    "fields": {
+        "owner": 11,
         "pfp": ""
     }
 }

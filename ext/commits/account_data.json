@@ -3,16 +3,17 @@
     "model": "account.customuser",
     "pk": 1,
     "fields": {
-        "last_login": "2025-05-15T16:52:54.680Z",
+        "last_login": "2025-05-24T13:54:36.851Z",
         "is_superuser": true,
         "first_name": "",
         "last_name": "",
         "is_staff": true,
         "is_active": true,
-        "date_joined": "2025-05-14T10:14:06.058Z",
+        "date_joined": "2025-05-24T13:54:21.883Z",
         "username": "admin | admin@mail.com",
         "email": "admin@mail.com",
-        "password": "pbkdf2_sha256$870000$N4dR8rYNrmXrWgCgT0gFhT$wLe4kdcVhiugN1xjE4tTpNgaYZRFfCdUogHmn1WvyHY=",
+        "password": "pbkdf2_sha256$870000$1OCFkZTseNehHuujW9tDOf$O4tyeb26SX5lnPRX5/Z6VP3DElSyV4HItu4V0N6PDt8=",
+        "is_teacher": false,
         "groups": [],
         "user_permissions": []
     }
@@ -27,10 +28,182 @@
         "last_name": "",
         "is_staff": false,
         "is_active": true,
-        "date_joined": "2025-05-14T10:14:47.259Z",
+        "date_joined": "2025-05-24T13:54:56.726Z",
         "username": "Сабыркулов Нурмухаммед",
         "email": "user@mail.com",
-        "password": "pbkdf2_sha256$870000$3HZd1g5lQ7QDJRj5pImCom$LnmP/RQYkqurf48FTFSuPd+5U9NhH2NwP5Cge7qA9EM=",
+        "password": "pbkdf2_sha256$870000$Ph0PKHwpwl3fmrKszURbHp$SawpOk14Rq14Nq9q+0+3RJHB3hyALS2a4jTr9NizHKg=",
+        "is_teacher": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 3,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T13:58:07.297Z",
+        "username": "Сазбаков Замирбек Садыгалиевич",
+        "email": "rifcozuj@aldoz.ca",
+        "password": "pbkdf2_sha256$870000$ONasHw75Pb67nkGKkQhRCJ$NXRvPHC93NPcWq3FUrtD8mzijgrn6FWMJmsIMnsfVzQ=",
+        "is_teacher": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 4,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T13:58:44.856Z",
+        "username": "Койчуманова Жамила",
+        "email": "mecjo@izo.gb",
+        "password": "pbkdf2_sha256$870000$kzJVldNbEjD95UxXJZpZKz$C/U5pO4be562EIu+vXayCfaDiqxAU1O6whLARMNRTDY=",
+        "is_teacher": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 5,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T13:59:05.776Z",
+        "username": "Тойбаева Жазгул Джумадиловна",
+        "email": "toakpoh@kelel.vi",
+        "password": "pbkdf2_sha256$870000$S8ZcfGFLkuqY8HoZ9KMY3J$V6YLZ+kNJWTFFwrMD+PvFDVmgJQIX51bu/28NYURscE=",
+        "is_teacher": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 6,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T13:59:29.028Z",
+        "username": "Аманкулова Нургуль Асимкановна",
+        "email": "nuwbeb@hocus.hk",
+        "password": "pbkdf2_sha256$870000$9uokffqgxeJuzKisWrQFd7$9U7H3VSbWILclravaD+AKZmELgshXtHTeaB/zENxoLo=",
+        "is_teacher": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 7,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T14:00:00.119Z",
+        "username": "Апилова Тинатин Азанкуловна",
+        "email": "to@ve.sd",
+        "password": "pbkdf2_sha256$870000$tBfBNd9iMU2KtHsBrLEuV1$/wZg3wOisXdchIkhAwmrmP3Yv9QfbzRL8HuCe58E6jA=",
+        "is_teacher": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 8,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T14:00:19.500Z",
+        "username": "Раззаков Медер Иматбекович",
+        "email": "catadki@kigorrup.ge",
+        "password": "pbkdf2_sha256$870000$c5ehHE1wMZXEHvzXW41Itr$Nc2vYNgrVOlgNhIJspuInNc57DfFopXZhAmw2Ol0LNE=",
+        "is_teacher": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 9,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T14:00:46.840Z",
+        "username": "Зав. кафедрой",
+        "email": "ohuvun@kud.my",
+        "password": "pbkdf2_sha256$870000$2U9nEw2wXO7cSLWdb2LSLp$DHhE+JqKwclmXXzDtvAFMdSjtUUG7Df3qIruIK0u6Fk=",
+        "is_teacher": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 10,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T14:07:28.264Z",
+        "username": "Искендерова А.К.",
+        "email": "cimu@nib.net",
+        "password": "pbkdf2_sha256$870000$tl5MejF7QRNTRqNFaDDu5w$TYwlkLPg8KS0VBuUxbjtRcEpSGbFtPvRb2xuBRd1GOU=",
+        "is_teacher": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "account.customuser",
+    "pk": 11,
+    "fields": {
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2025-05-24T14:09:22.747Z",
+        "username": "Кунтубаева А.А.",
+        "email": "do@aketi.bi",
+        "password": "pbkdf2_sha256$870000$FEE9pi2d86Of1DR6zDwoZX$aXegIDD6Ge7mFRKrPUhVG6QIJA2S2s73v3uRo1N8cqU=",
+        "is_teacher": true,
         "groups": [],
         "user_permissions": []
     }
