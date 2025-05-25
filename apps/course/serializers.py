@@ -9,7 +9,7 @@ class ContentSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = ContentModel
-        fields = ["content", "file_name"]
+        fields = ["file_name", "content"]
         
     def get_file_name(self, obj: ContentModel) -> Optional[str]:
         import os

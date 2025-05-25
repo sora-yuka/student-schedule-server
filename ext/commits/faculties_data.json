@@ -1,0 +1,37 @@
+[
+{
+    "model": "faculties.facultiesmodel",
+    "pk": 1,
+    "fields": {
+        "faculty_name": "ИЭТ"
+    }
+},
+{
+    "model": "faculties.specialtymodel",
+    "pk": 1,
+    "fields": {
+        "faculty": 1,
+        "specialty_name": "ИСТ"
+    }
+},
+{
+    "model": "faculties.groupsmodel",
+    "pk": 1,
+    "fields": {
+        "faculty": 1,
+        "specialty": 1,
+        "group_name": "ИСТ(б) 1-23",
+        "created_at": "2025-05-25T12:42:25.777Z"
+    }
+},
+{
+    "model": "faculties.groupsmodel",
+    "pk": 2,
+    "fields": {
+        "faculty": 1,
+        "specialty": 1,
+        "group_name": "ИСТ(б) 2-23",
+        "created_at": "2025-05-25T12:42:37.081Z"
+    }
+}
+]

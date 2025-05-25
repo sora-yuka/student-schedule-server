@@ -1,0 +1,40 @@
+[
+{
+    "model": "course.coursemodel",
+    "pk": 1,
+    "fields": {
+        "name": "Объектно-ориентированное программирование 1",
+        "professor": 4,
+        "description": "",
+        "group": []
+    }
+},
+{
+    "model": "course.coursemodel",
+    "pk": 2,
+    "fields": {
+        "name": "Основы информационной безопасности",
+        "professor": 6,
+        "description": "",
+        "group": [
+            2
+        ]
+    }
+},
+{
+    "model": "course.coursecontentmodel",
+    "pk": 1,
+    "fields": {
+        "name": "Лекция",
+        "course": 1
+    }
+},
+{
+    "model": "course.contentmodel",
+    "pk": 1,
+    "fields": {
+        "course_content": 1,
+        "content": "courses/Объектно-ориентированное программирование 1/Лекция/dummy_pdf.pdf"
+    }
+}
+]
