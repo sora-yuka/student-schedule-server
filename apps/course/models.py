@@ -27,7 +27,7 @@ class CourseContentModel(models.Model):
     def __str__(self) -> str:
         return f"{self.course} | {self.name}"
 
-    
+
 class ContentModel(models.Model):
     course_content = models.ForeignKey(to=CourseContentModel, on_delete=models.CASCADE)
     content = models.FileField(upload_to=directory_path)

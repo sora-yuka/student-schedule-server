@@ -1,14 +1,21 @@
-from typing import Dict, Any
+from typing import Dict, Optional, Any
 from rest_framework import serializers
 
 from .models import CourseModel, CourseContentModel, ContentModel
 
 
 class ContentSerializer(serializers.ModelSerializer):
+    file_name = serializers.SerializerMethodField()
     
     class Meta:
         model = ContentModel
-        fields = ["content"]
+        fields = ["content", "file_name"]
+        
+    def get_file_name(self, obj: ContentModel) -> Optional[str]:
+        import os
+        file_name = os.path.basename(obj.content.name)
+        
+        return file_name
 
 
 class CourseContentSerializer(serializers.ModelSerializer):
@@ -24,7 +31,6 @@ class CourseSerializer(serializers.ModelSerializer):
     class Meta:
         model = CourseModel
         exclude = ["group"]
-        
         
     def to_representation(self, instance: CourseModel) -> Dict[str, str]:
         representation = super().to_representation(instance=instance)

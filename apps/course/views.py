@@ -21,7 +21,7 @@ class CourseListAPIView(ListAPIView):
         return Response(serializer.data)
     
     
-class CourseContentRetrieveAPIView(ListAPIView):
+class CourseContentListAPIView(ListAPIView):
     serializer_class = CourseContentSerializer
     queryset = CourseContentModel.objects.all()
     
