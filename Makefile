@@ -6,7 +6,7 @@ m:
 	./manage.py migrate
 
 up:
-	./manage.py loaddata ext/commits/general_data.json
+	./manage.py loaddata ext/commits/general_data.json --exclude contenttypes
 
 su:
 	./manage.py createsuperuser

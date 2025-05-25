@@ -15,3 +15,4 @@ RUN apt-get update \
 COPY . /app
 
 CMD [ "make", "m", "up", "r" ]
+# CMD ["make", "m", "r"]
