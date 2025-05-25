@@ -6,7 +6,9 @@
         "name": "Объектно-ориентированное программирование 1",
         "professor": 4,
         "description": "",
-        "group": []
+        "group": [
+            1
+        ]
     }
 },
 {
@@ -17,7 +19,8 @@
         "professor": 6,
         "description": "",
         "group": [
-            2
+            2,
+            1
         ]
     }
 },
@@ -30,11 +33,27 @@
     }
 },
 {
+    "model": "course.coursecontentmodel",
+    "pk": 2,
+    "fields": {
+        "name": "Задание 1",
+        "course": 2
+    }
+},
+{
     "model": "course.contentmodel",
     "pk": 1,
     "fields": {
         "course_content": 1,
         "content": "courses/Объектно-ориентированное программирование 1/Лекция/dummy_pdf.pdf"
+    }
+},
+{
+    "model": "course.contentmodel",
+    "pk": 2,
+    "fields": {
+        "course_content": 2,
+        "content": "courses/Основы информационной безопасности/Задание 1/dummy_pdf.pdf"
     }
 }
 ]

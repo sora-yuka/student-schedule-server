@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
         "owner": 2,
-        "pfp": "uploads/pfp/3cc89acf-13ea-44f1-9274-bfa8e208f165.jpg",
+        "pfp": "",
         "course": "2nd course",
         "group": 1
     }

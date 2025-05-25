@@ -26,6 +26,45 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-05-25T13:21:20.041Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "1",
+        "object_repr": "Объектно-ориентированное программирование 1",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-05-25T13:21:52.603Z",
+        "user": 1,
+        "content_type": 15,
+        "object_id": "2",
+        "object_repr": "Основы информационной безопасности",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Group\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-05-25T13:22:16.421Z",
+        "user": 1,
+        "content_type": 16,
+        "object_id": "2",
+        "object_repr": "Основы информационной безопасности | Задание 1",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"content model\", \"object\": \"ContentModel object (2)\"}}]"
+    }
+},
+{
     "model": "auth.permission",
     "pk": 1,
     "fields": {
@@ -1578,7 +1617,9 @@
         "name": "Объектно-ориентированное программирование 1",
         "professor": 4,
         "description": "",
-        "group": []
+        "group": [
+            1
+        ]
     }
 },
 {
@@ -1589,7 +1630,8 @@
         "professor": 6,
         "description": "",
         "group": [
-            2
+            2,
+            1
         ]
     }
 },
@@ -1602,11 +1644,27 @@
     }
 },
 {
+    "model": "course.coursecontentmodel",
+    "pk": 2,
+    "fields": {
+        "name": "Задание 1",
+        "course": 2
+    }
+},
+{
     "model": "course.contentmodel",
     "pk": 1,
     "fields": {
         "course_content": 1,
         "content": "courses/Объектно-ориентированное программирование 1/Лекция/dummy_pdf.pdf"
+    }
+},
+{
+    "model": "course.contentmodel",
+    "pk": 2,
+    "fields": {
+        "course_content": 2,
+        "content": "courses/Основы информационной безопасности/Задание 1/dummy_pdf.pdf"
     }
 },
 {
