@@ -178,8 +178,7 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.IsAuthenticated',
     ),
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        # 'apps.account.authentication.CookiesJWTAuthentication',
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
+        'apps.account.authentication.CookiesJWTAuthentication',
     ),
 }
 
@@ -192,7 +191,7 @@ SIMPLE_JWT = {
     'UPDATE_LAST_LOGIN': False,
 
     'ALGORITHM': 'HS256',
-    'SIGNING_KEY': SECRET_KEY,
+    'SIGNING_KEY': config("SECRET_KEY"),
     'VERIFYING_KEY': None,
     'AUDIENCE': None,
     'ISSUER': None,
