@@ -8,7 +8,7 @@ from rest_framework_simplejwt.exceptions import InvalidToken, TokenError
 
 from rest_framework_simplejwt.views import (
     TokenObtainPairView as TokenObtain,
-    TokenRefreshView as TokenRefresh
+    TokenRefreshView as TokenRefresh,
 )
 
 
@@ -75,6 +75,14 @@ class TokenRefreshView(TokenRefresh):
             return response
         except TokenError as error:
             raise InvalidToken(detail=error.args[0])
+        
+        
+class TokenRemoveView(APIView):
+    def post(self, request: Request, *args, **kwargs) -> Response:
+        response = Response("Logged out successfully", status=status.HTTP_200_OK)
+        response.delete_cookie(key="access_token", path="/")
+        response.delete_cookie(key="refresh_token", path="/")
+        return response
 
 
 class CheckAuthView(APIView):
